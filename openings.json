@@ -1,0 +1,3853 @@
+{
+    "King's Pawn Game": {
+        "main": "1. e4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.503,
+                "b_p": 0.458,
+                "d_p": 0.039,
+                "prev": 0.662,
+                "prev_i": 2,
+                "att": 1,
+                "att_i": 1,
+                "tot": 1395946
+            },
+            "1800": {
+                "w_p": 0.492,
+                "b_p": 0.463,
+                "d_p": 0.045,
+                "prev": 0.603,
+                "prev_i": 2,
+                "att": 1,
+                "att_i": 1,
+                "tot": 1516185
+            },
+            "MASTERS": {
+                "w_p": 0.475,
+                "b_p": 0.439,
+                "d_p": 0.086,
+                "prev": 0.463,
+                "prev_i": 2,
+                "att": 1,
+                "att_i": 1,
+                "tot": 354961
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Open Game": {
+        "main": "1. e4 e5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.511,
+                "b_p": 0.45,
+                "d_p": 0.039,
+                "prev": 0.569,
+                "prev_i": 2,
+                "att": 0.662,
+                "att_i": 2,
+                "tot": 794192
+            },
+            "1800": {
+                "w_p": 0.506,
+                "b_p": 0.45,
+                "d_p": 0.044,
+                "prev": 0.326,
+                "prev_i": 3,
+                "att": 0.603,
+                "att_i": 2,
+                "tot": 493981
+            },
+            "MASTERS": {
+                "w_p": 0.475,
+                "b_p": 0.436,
+                "d_p": 0.089,
+                "prev": 0.185,
+                "prev_i": 5,
+                "att": 0.463,
+                "att_i": 2,
+                "tot": 65521
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Italian Game": {
+        "main": "1. e4 e5 2. Nf3 Nc6 3. Bc4",
+        "transpositions": [
+            "1. e4 Nc6 2. Nf3 e5 3. Bc4",
+            "1. e4 e5 2. Bc4 Nc6 3. Nf3",
+            "1. e4 Nc6 2. Bc4 e5 3. Nf3",
+            "1. Nf3 Nc6 2. e4 e5 3. Bc4"
+        ],
+        "stats_main": {
+            "1200": {
+                "w_p": 0.52,
+                "b_p": 0.445,
+                "d_p": 0.035,
+                "prev": 0.15,
+                "prev_i": 7,
+                "att": 0.342,
+                "att_i": 3,
+                "tot": 108263
+            },
+            "1800": {
+                "w_p": 0.502,
+                "b_p": 0.457,
+                "d_p": 0.042,
+                "prev": 0.159,
+                "prev_i": 6,
+                "att": 0.217,
+                "att_i": 5,
+                "tot": 86804
+            },
+            "MASTERS": {
+                "w_p": 0.47,
+                "b_p": 0.448,
+                "d_p": 0.082,
+                "prev": 0.108,
+                "prev_i": 9,
+                "att": 0.148,
+                "att_i": 7,
+                "tot": 12224
+            }
+        },
+        "stats": {
+            "1200": {
+                "w_p": 0.52,
+                "b_p": 0.445,
+                "d_p": 0.035,
+                "prev": 0.292,
+                "prev_i": 3,
+                "att": 0.351,
+                "att_i": 3,
+                "BTL": "1. e4 { Att. = 0.351, over Nf3 } 1... e5 ( 1... Nc6 2. Nf3 { Att. = 0.428, over Bc4 } 2... e5 3. Bc4 ) 2. Nf3 { Att. = 0.601, over Bc4 } 2... Nc6 3. Bc4 *",
+                "tot": 116499
+            },
+            "1800": {
+                "w_p": 0.501,
+                "b_p": 0.458,
+                "d_p": 0.041,
+                "prev": 0.266,
+                "prev_i": 4,
+                "att": 0.223,
+                "att_i": 4,
+                "BTL": "1. e4 { Att. = 0.223, over Nf3 } 1... e5 ( 1... Nc6 2. Nf3 { Att. = 0.367, over Bc4 } 2... e5 3. Bc4 ) 2. Nf3 { Att. = 0.667, over Bc4 } 2... Nc6 3. Bc4 *",
+                "tot": 93891
+            },
+            "MASTERS": {
+                "w_p": 0.469,
+                "b_p": 0.449,
+                "d_p": 0.082,
+                "prev": 0.175,
+                "prev_i": 6,
+                "att": 0.151,
+                "att_i": 7,
+                "BTL": "1. e4 { Att. = 0.151, over Nf3 } 1... e5 ( 1... Nc6 2. Bc4 { Att. = 0.204, over Nf3 } 2... e5 3. Nf3 ) 2. Nf3 { Att. = 0.802, over Bc4 } 2... Nc6 3. Bc4 *",
+                "tot": 12583
+            }
+        }
+    },
+    "Ruy Lopez": {
+        "main": "1. e4 e5 2. Nf3 Nc6 3. Bb5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.515,
+                "b_p": 0.444,
+                "d_p": 0.041,
+                "prev": 0.103,
+                "prev_i": 10,
+                "att": 0.342,
+                "att_i": 3,
+                "tot": 73988
+            },
+            "1800": {
+                "w_p": 0.509,
+                "b_p": 0.445,
+                "d_p": 0.046,
+                "prev": 0.116,
+                "prev_i": 9,
+                "att": 0.217,
+                "att_i": 5,
+                "tot": 63430
+            },
+            "MASTERS": {
+                "w_p": 0.468,
+                "b_p": 0.436,
+                "d_p": 0.096,
+                "prev": 0.161,
+                "prev_i": 6,
+                "att": 0.148,
+                "att_i": 7,
+                "tot": 18312
+            }
+        },
+        "transpositions": [
+            "1. e4 Nc6 2. Nf3 e5 3. Bb5",
+            "1. e4 e5 2. Bb5 Nc6 3. Nf3",
+            "1. e4 Nc6 2. Bb5 e5 3. Nf3",
+            "1. Nf3 Nc6 2. e4 e5 3. Bb5"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.515,
+                "b_p": 0.444,
+                "d_p": 0.041,
+                "prev": 0.161,
+                "prev_i": 6,
+                "att": 0.351,
+                "att_i": 3,
+                "BTL": "1. e4 { Att. = 0.351, over Nf3 } 1... e5 ( 1... Nc6 2. Nf3 { Att. = 0.428, over Bb5 } 2... e5 3. Bb5 ) 2. Nf3 { Att. = 0.601, over Bb5 } 2... Nc6 3. Bb5 *",
+                "tot": 75229
+            },
+            "1800": {
+                "w_p": 0.509,
+                "b_p": 0.445,
+                "d_p": 0.046,
+                "prev": 0.173,
+                "prev_i": 6,
+                "att": 0.223,
+                "att_i": 4,
+                "BTL": "1. e4 { Att. = 0.223, over Nf3 } 1... e5 ( 1... Nc6 2. Nf3 { Att. = 0.367, over Bb5 } 2... e5 3. Bb5 ) 2. Nf3 { Att. = 0.667, over Bb5 } 2... Nc6 3. Bb5 *",
+                "tot": 64378
+            },
+            "MASTERS": {
+                "w_p": 0.469,
+                "b_p": 0.435,
+                "d_p": 0.096,
+                "prev": 0.252,
+                "prev_i": 4,
+                "att": 0.151,
+                "att_i": 7,
+                "BTL": "1. e4 { Att. = 0.151, over Nf3 } 1... e5 ( 1... Nc6 2. Bb5 { Att. = 0.19, over Nf3 } 2... e5 3. Nf3 ) 2. Nf3 { Att. = 0.802, over Bb5 } 2... Nc6 3. Bb5 *",
+                "tot": 18496
+            }
+        }
+    },
+    "Scotch Game": {
+        "main": "1. e4 e5 2. Nf3 Nc6 3. d4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.525,
+                "b_p": 0.432,
+                "d_p": 0.044,
+                "prev": 0.066,
+                "prev_i": 15,
+                "att": 0.342,
+                "att_i": 3,
+                "tot": 47843
+            },
+            "1800": {
+                "w_p": 0.514,
+                "b_p": 0.437,
+                "d_p": 0.049,
+                "prev": 0.074,
+                "prev_i": 14,
+                "att": 0.217,
+                "att_i": 5,
+                "tot": 40528
+            },
+            "MASTERS": {
+                "w_p": 0.472,
+                "b_p": 0.431,
+                "d_p": 0.097,
+                "prev": 0.06,
+                "prev_i": 17,
+                "att": 0.148,
+                "att_i": 7,
+                "tot": 6783
+            }
+        },
+        "transpositions": [
+            "1. e4 Nc6 2. Nf3 e5 3. d4",
+            "1. e4 e5 2. d4 Nc6 3. Nf3",
+            "1. e4 Nc6 2. d4 e5 3. Nf3",
+            "1. Nf3 Nc6 2. e4 e5 3. d4",
+            "1. d4 Nc6 2. e4 e5 3. Nf3"
+        ],
+        "variations": [
+            "Scotch Gambit"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.524,
+                "b_p": 0.433,
+                "d_p": 0.043,
+                "prev": 0.15,
+                "prev_i": 7,
+                "att": 0.351,
+                "att_i": 3,
+                "BTL": "1. e4 { Att. = 0.351, over Nf3, d4 } 1... e5 ( 1... Nc6 2. Nf3 { Att. = 0.428, over d4 } 2... e5 3. d4 ) 2. Nf3 { Att. = 0.601, over d4 } 2... Nc6 3. d4 *",
+                "tot": 50302
+            },
+            "1800": {
+                "w_p": 0.515,
+                "b_p": 0.437,
+                "d_p": 0.048,
+                "prev": 0.174,
+                "prev_i": 6,
+                "att": 0.225,
+                "att_i": 4,
+                "BTL": "1. e4 { Att. = 0.225, over Nf3, d4 } 1... e5 ( 1... Nc6 2. d4 { Att. = 0.462, over Nf3 } 2... e5 3. Nf3 ) 2. Nf3 { Att. = 0.667, over d4 } 2... Nc6 3. d4 *",
+                "tot": 42703
+            },
+            "MASTERS": {
+                "w_p": 0.475,
+                "b_p": 0.43,
+                "d_p": 0.095,
+                "prev": 0.152,
+                "prev_i": 7,
+                "att": 0.155,
+                "att_i": 6,
+                "BTL": "1. e4 { Att. = 0.155, over Nf3, d4 } 1... e5 ( 1... Nc6 2. d4 { Att. = 0.452, over Nf3 } 2... e5 3. Nf3 ) 2. Nf3 { Att. = 0.802, over d4 } 2... Nc6 3. d4 *",
+                "tot": 7173
+            }
+        }
+    },
+    "Scotch Gambit": {
+        "parent": "Scotch Game",
+        "main": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.543,
+                "b_p": 0.433,
+                "d_p": 0.024,
+                "prev": 0.004,
+                "prev_i": 260,
+                "att": 0.197,
+                "att_i": 5,
+                "tot": 1604
+            },
+            "1800": {
+                "w_p": 0.538,
+                "b_p": 0.423,
+                "d_p": 0.039,
+                "prev": 0.017,
+                "prev_i": 58,
+                "att": 0.196,
+                "att_i": 5,
+                "tot": 8501
+            },
+            "MASTERS": {
+                "w_p": 0.462,
+                "b_p": 0.438,
+                "d_p": 0.1,
+                "prev": 0.02,
+                "prev_i": 51,
+                "att": 0.145,
+                "att_i": 7,
+                "tot": 2181
+            }
+        },
+        "transpositions": [
+            "1. e4 Nc6 2. Nf3 e5 3. d4 exd4 4. Bc4",
+            "1. e4 e5 2. d4 Nc6 3. Nf3 exd4 4. Bc4",
+            "1. e4 e5 2. d4 exd4 3. Nf3 Nc6 4. Bc4",
+            "1. e4 Nc6 2. d4 e5 3. Nf3 exd4 4. Bc4",
+            "1. e4 e5 2. d4 Nc6 3. Bc4 exd4 4. Nf3",
+            "1. e4 e5 2. d4 exd4 3. Bc4 Nc6 4. Nf3",
+            "1. e4 Nc6 2. d4 e5 3. Bc4 exd4 4. Nf3",
+            "1. e4 e5 2. Bc4 Nc6 3. d4 exd4 4. Nf3",
+            "1. e4 Nc6 2. Bc4 e5 3. d4 exd4 4. Nf3",
+            "1. Nf3 Nc6 2. e4 e5 3. d4 exd4 4. Bc4",
+            "1. d4 Nc6 2. e4 e5 3. Nf3 exd4 4. Bc4",
+            "1. d4 Nc6 2. e4 e5 3. Bc4 exd4 4. Nf3"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.536,
+                "b_p": 0.44,
+                "d_p": 0.024,
+                "prev": 0.011,
+                "prev_i": 91,
+                "att": 0.201,
+                "att_i": 5,
+                "BTL": "1. e4 { Att. = 0.201, over Nf3, d4 } 1... e5 ( 1... Nc6 2. Nf3 { Att. = 0.179, over d4, Bc4 } 2... e5 3. d4 exd4 4. Bc4 ) 2. Nf3 { Att. = 0.347, over d4, Bc4 } 2... Nc6 3. d4 exd4 4. Bc4 *",
+                "tot": 2131
+            },
+            "1800": {
+                "w_p": 0.537,
+                "b_p": 0.424,
+                "d_p": 0.04,
+                "prev": 0.041,
+                "prev_i": 24,
+                "att": 0.202,
+                "att_i": 5,
+                "BTL": "1. e4 { Att. = 0.202, over Nf3, d4 } 1... e5 ( 1... Nc6 2. d4 { Att. = 0.357, over Nf3, Bc4 } 2... e5 3. Nf3 { Att. = 0.773, over Bc4 } 3... exd4 4. Bc4 ) 2. Nf3 { Att. = 0.602, over d4, Bc4 } 2... Nc6 3. d4 exd4 4. Bc4 *",
+                "tot": 10583
+            },
+            "MASTERS": {
+                "w_p": 0.471,
+                "b_p": 0.432,
+                "d_p": 0.097,
+                "prev": 0.052,
+                "prev_i": 19,
+                "att": 0.15,
+                "att_i": 7,
+                "BTL": "1. e4 { Att. = 0.15, over Nf3, d4 } 1... e5 ( 1... Nc6 2. d4 { Att. = 0.389, over Nf3, Bc4 } 2... e5 3. Nf3 { Att. = 0.861, over Bc4 } 3... exd4 4. Bc4 ) 2. Nf3 { Att. = 0.782, over d4, Bc4 } 2... Nc6 3. d4 exd4 4. Bc4 *",
+                "tot": 2595
+            }
+        }
+    },
+    "Ponziani Opening": {
+        "main": "1. e4 e5 2. Nf3 Nc6 3. c3",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.495,
+                "b_p": 0.464,
+                "d_p": 0.04,
+                "prev": 0.01,
+                "prev_i": 101,
+                "att": 0.342,
+                "att_i": 3,
+                "tot": 7264
+            },
+            "1800": {
+                "w_p": 0.511,
+                "b_p": 0.445,
+                "d_p": 0.043,
+                "prev": 0.011,
+                "prev_i": 94,
+                "att": 0.217,
+                "att_i": 5,
+                "tot": 5880
+            },
+            "MASTERS": {
+                "w_p": 0.473,
+                "b_p": 0.451,
+                "d_p": 0.076,
+                "prev": 0.006,
+                "prev_i": 182,
+                "att": 0.148,
+                "att_i": 7,
+                "tot": 632
+            }
+        },
+        "transpositions": [
+            "1. e4 Nc6 2. Nf3 e5 3. c3",
+            "1. e4 e5 2. c3 Nc6 3. Nf3",
+            "1. e4 Nc6 2. c3 e5 3. Nf3",
+            "1. Nf3 Nc6 2. e4 e5 3. c3",
+            "1. Nf3 Nc6 2. c3 e5 3. e4",
+            "1. c3 e5 2. e4 Nc6 3. Nf3",
+            "1. c3 Nc6 2. e4 e5 3. Nf3",
+            "1. c3 e5 2. Nf3 Nc6 3. e4",
+            "1. c3 Nc6 2. Nf3 e5 3. e4"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.495,
+                "b_p": 0.464,
+                "d_p": 0.041,
+                "prev": 0.021,
+                "prev_i": 47,
+                "att": 0.351,
+                "att_i": 3,
+                "BTL": "1. e4 { Att. = 0.351, over Nf3, c3 } 1... e5 ( 1... Nc6 2. Nf3 { Att. = 0.428, over c3 } 2... e5 3. c3 ) 2. Nf3 { Att. = 0.601, over c3 } 2... Nc6 3. c3 *",
+                "tot": 7740
+            },
+            "1800": {
+                "w_p": 0.512,
+                "b_p": 0.445,
+                "d_p": 0.043,
+                "prev": 0.022,
+                "prev_i": 45,
+                "att": 0.225,
+                "att_i": 4,
+                "BTL": "1. e4 { Att. = 0.225, over Nf3, c3 } 1... e5 ( 1... Nc6 2. c3 { Att. = 0.477, over Nf3 } 2... e5 3. Nf3 ) 2. Nf3 { Att. = 0.667, over c3 } 2... Nc6 3. c3 *",
+                "tot": 6246
+            },
+            "MASTERS": {
+                "w_p": 0.472,
+                "b_p": 0.453,
+                "d_p": 0.075,
+                "prev": 0.008,
+                "prev_i": 131,
+                "att": 0.153,
+                "att_i": 7,
+                "BTL": "1. e4 { Att. = 0.153, over Nf3, c3 } 1... e5 ( 1... Nc6 2. c3 { Att. = 0.308, over Nf3 } 2... e5 3. Nf3 ) 2. Nf3 { Att. = 0.802, over c3 } 2... Nc6 3. c3 *",
+                "tot": 638
+            }
+        }
+    },
+    "Center Game": {
+        "main": "1. e4 e5 2. d4 exd4 3. Qxd4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.439,
+                "b_p": 0.515,
+                "d_p": 0.046,
+                "prev": 0.033,
+                "prev_i": 30,
+                "att": 0.299,
+                "att_i": 3,
+                "tot": 20854
+            },
+            "1800": {
+                "w_p": 0.505,
+                "b_p": 0.452,
+                "d_p": 0.043,
+                "prev": 0.008,
+                "prev_i": 127,
+                "att": 0.265,
+                "att_i": 4,
+                "tot": 5296
+            },
+            "MASTERS": {
+                "w_p": 0.482,
+                "b_p": 0.442,
+                "d_p": 0.076,
+                "prev": 0.006,
+                "prev_i": 173,
+                "att": 0.154,
+                "att_i": 6,
+                "tot": 681
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Danish Gambit": {
+        "main": "1. e4 e5 2. d4 exd4 3. c3",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.549,
+                "b_p": 0.425,
+                "d_p": 0.025,
+                "prev": 0.009,
+                "prev_i": 107,
+                "att": 0.299,
+                "att_i": 3,
+                "tot": 5873
+            },
+            "1800": {
+                "w_p": 0.55,
+                "b_p": 0.411,
+                "d_p": 0.039,
+                "prev": 0.018,
+                "prev_i": 55,
+                "att": 0.265,
+                "att_i": 4,
+                "tot": 12155
+            },
+            "MASTERS": {
+                "w_p": 0.446,
+                "b_p": 0.488,
+                "d_p": 0.067,
+                "prev": 0.005,
+                "prev_i": 196,
+                "att": 0.154,
+                "att_i": 6,
+                "tot": 601
+            }
+        },
+        "transpositions": [
+            "1. d4 e5 2. e4 exd4 3. c3"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.549,
+                "b_p": 0.425,
+                "d_p": 0.026,
+                "prev": 0.01,
+                "prev_i": 103,
+                "att": 0.299,
+                "att_i": 3,
+                "BTL": "1. e4 { Att. = 0.299, over d4 } 1... e5 2. d4 exd4 3. c3 *",
+                "tot": 5893
+            },
+            "1800": {
+                "w_p": 0.55,
+                "b_p": 0.411,
+                "d_p": 0.039,
+                "prev": 0.018,
+                "prev_i": 54,
+                "att": 0.265,
+                "att_i": 4,
+                "BTL": "1. e4 { Att. = 0.265, over d4 } 1... e5 2. d4 exd4 3. c3 *",
+                "tot": 12173
+            },
+            "MASTERS": {
+                "w_p": 0.448,
+                "b_p": 0.486,
+                "d_p": 0.066,
+                "prev": 0.005,
+                "prev_i": 184,
+                "att": 0.154,
+                "att_i": 6,
+                "BTL": "1. e4 { Att. = 0.154, over d4 } 1... e5 2. d4 exd4 3. c3 *",
+                "tot": 603
+            }
+        }
+    },
+    "Vienna Game": {
+        "main": "1. e4 e5 2. Nc3",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.493,
+                "b_p": 0.464,
+                "d_p": 0.043,
+                "prev": 0.024,
+                "prev_i": 42,
+                "att": 0.569,
+                "att_i": 2,
+                "tot": 28467
+            },
+            "1800": {
+                "w_p": 0.516,
+                "b_p": 0.44,
+                "d_p": 0.044,
+                "prev": 0.023,
+                "prev_i": 44,
+                "att": 0.326,
+                "att_i": 3,
+                "tot": 18683
+            },
+            "MASTERS": {
+                "w_p": 0.495,
+                "b_p": 0.416,
+                "d_p": 0.089,
+                "prev": 0.038,
+                "prev_i": 26,
+                "att": 0.185,
+                "att_i": 5,
+                "tot": 5347
+            }
+        },
+        "transpositions": [
+            "1. Nc3 e5 2. e4"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.492,
+                "b_p": 0.465,
+                "d_p": 0.043,
+                "prev": 0.026,
+                "prev_i": 39,
+                "att": 0.569,
+                "att_i": 2,
+                "BTL": "1. e4 { Att. = 0.569, over Nc3 } 1... e5 2. Nc3 *",
+                "tot": 30292
+            },
+            "1800": {
+                "w_p": 0.516,
+                "b_p": 0.44,
+                "d_p": 0.044,
+                "prev": 0.024,
+                "prev_i": 42,
+                "att": 0.326,
+                "att_i": 3,
+                "BTL": "1. e4 { Att. = 0.326, over Nc3 } 1... e5 2. Nc3 *",
+                "tot": 19295
+            },
+            "MASTERS": {
+                "w_p": 0.493,
+                "b_p": 0.417,
+                "d_p": 0.09,
+                "prev": 0.04,
+                "prev_i": 25,
+                "att": 0.185,
+                "att_i": 5,
+                "BTL": "1. e4 { Att. = 0.185, over Nc3 } 1... e5 2. Nc3 *",
+                "tot": 5436
+            }
+        }
+    },
+    "Bishop's Opening": {
+        "main": "1. e4 e5 2. Bc4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.521,
+                "b_p": 0.443,
+                "d_p": 0.036,
+                "prev": 0.062,
+                "prev_i": 16,
+                "att": 0.569,
+                "att_i": 2,
+                "tot": 74023
+            },
+            "1800": {
+                "w_p": 0.503,
+                "b_p": 0.452,
+                "d_p": 0.045,
+                "prev": 0.055,
+                "prev_i": 18,
+                "att": 0.326,
+                "att_i": 3,
+                "tot": 44895
+            },
+            "MASTERS": {
+                "w_p": 0.498,
+                "b_p": 0.434,
+                "d_p": 0.068,
+                "prev": 0.017,
+                "prev_i": 60,
+                "att": 0.185,
+                "att_i": 5,
+                "tot": 2382
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "King's Gambit": {
+        "main": "1. e4 e5 2. f4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.537,
+                "b_p": 0.433,
+                "d_p": 0.029,
+                "prev": 0.023,
+                "prev_i": 44,
+                "att": 0.569,
+                "att_i": 2,
+                "tot": 26684
+            },
+            "1800": {
+                "w_p": 0.505,
+                "b_p": 0.46,
+                "d_p": 0.036,
+                "prev": 0.069,
+                "prev_i": 15,
+                "att": 0.326,
+                "att_i": 3,
+                "tot": 56214
+            },
+            "MASTERS": {
+                "w_p": 0.462,
+                "b_p": 0.474,
+                "d_p": 0.064,
+                "prev": 0.02,
+                "prev_i": 50,
+                "att": 0.185,
+                "att_i": 5,
+                "tot": 2832
+            }
+        },
+        "transpositions": [
+            "1. f4 e5 2. e4"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.537,
+                "b_p": 0.433,
+                "d_p": 0.03,
+                "prev": 0.023,
+                "prev_i": 44,
+                "att": 0.569,
+                "att_i": 2,
+                "BTL": "1. e4 { Att. = 0.569, over f4 } 1... e5 2. f4 *",
+                "tot": 26698
+            },
+            "1800": {
+                "w_p": 0.505,
+                "b_p": 0.46,
+                "d_p": 0.035,
+                "prev": 0.069,
+                "prev_i": 14,
+                "att": 0.326,
+                "att_i": 3,
+                "BTL": "1. e4 { Att. = 0.326, over f4 } 1... e5 2. f4 *",
+                "tot": 56373
+            },
+            "MASTERS": {
+                "w_p": 0.462,
+                "b_p": 0.475,
+                "d_p": 0.064,
+                "prev": 0.02,
+                "prev_i": 50,
+                "att": 0.185,
+                "att_i": 5,
+                "BTL": "1. e4 { Att. = 0.185, over f4 } 1... e5 2. f4 *",
+                "tot": 2866
+            }
+        }
+    },
+    "Four Knights Game": {
+        "main": "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.5,
+                "b_p": 0.458,
+                "d_p": 0.042,
+                "prev": 0.169,
+                "prev_i": 6,
+                "att": 0.06,
+                "att_i": 17,
+                "tot": 21312
+            },
+            "1800": {
+                "w_p": 0.511,
+                "b_p": 0.441,
+                "d_p": 0.049,
+                "prev": 0.103,
+                "prev_i": 10,
+                "att": 0.024,
+                "att_i": 41,
+                "tot": 6347
+            },
+            "MASTERS": {
+                "w_p": 0.49,
+                "b_p": 0.409,
+                "d_p": 0.101,
+                "prev": 0.126,
+                "prev_i": 8,
+                "att": 0.03,
+                "att_i": 34,
+                "tot": 2847
+            }
+        },
+        "variations": [
+            "Halloween Gambit"
+        ],
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6",
+            "1. e4 Nc6 2. Nf3 e5 3. Nc3 Nf6",
+            "1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5",
+            "1. e4 e5 2. Nc3 Nc6 3. Nf3 Nf6",
+            "1. e4 e5 2. Nc3 Nf6 3. Nf3 Nc6",
+            "1. e4 Nc6 2. Nc3 e5 3. Nf3 Nf6",
+            "1. e4 Nc6 2. Nc3 Nf6 3. Nf3 e5",
+            "1. e4 Nf6 2. Nc3 e5 3. Nf3 Nc6",
+            "1. e4 Nf6 2. Nc3 Nc6 3. Nf3 e5",
+            "1. Nf3 Nc6 2. e4 e5 3. Nc3 Nf6",
+            "1. Nf3 Nc6 2. e4 Nf6 3. Nc3 e5",
+            "1. Nf3 Nc6 2. Nc3 e5 3. e4 Nf6",
+            "1. Nf3 Nc6 2. Nc3 Nf6 3. e4 e5",
+            "1. Nf3 Nf6 2. Nc3 Nc6 3. e4 e5",
+            "1. Nc3 e5 2. e4 Nc6 3. Nf3 Nf6",
+            "1. Nc3 e5 2. e4 Nf6 3. Nf3 Nc6",
+            "1. Nc3 Nc6 2. e4 e5 3. Nf3 Nf6",
+            "1. Nc3 Nc6 2. e4 Nf6 3. Nf3 e5",
+            "1. Nc3 Nf6 2. e4 e5 3. Nf3 Nc6",
+            "1. Nc3 Nf6 2. e4 Nc6 3. Nf3 e5",
+            "1. Nc3 e5 2. Nf3 Nc6 3. e4 Nf6",
+            "1. Nc3 Nc6 2. Nf3 e5 3. e4 Nf6",
+            "1. Nc3 Nc6 2. Nf3 Nf6 3. e4 e5",
+            "1. Nc3 Nf6 2. Nf3 Nc6 3. e4 e5"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.502,
+                "b_p": 0.456,
+                "d_p": 0.043,
+                "prev": 0.904,
+                "prev_i": 1,
+                "att": 0.165,
+                "att_i": 6,
+                "BTL": "1. e4 ( 1. Nf3 Nc6 { Att. = 0.149, over Nf6 } 2. e4 ( 2. Nc3 e5 { Att. = 0.55, over Nf6 } 3. e4 Nf6 ) 2... Nf6 { Att. = 0.41, over e5 } 3. Nc3 e5 ) ( 1. Nc3 e5 { Att. = 0.28, over Nc6, Nf6 } 2. e4 ( 2. Nf3 Nc6 3. e4 Nf6 ) 2... Nc6 { Att. = 0.49, over Nf6 } 3. Nf3 Nf6 ) 1... Nf6 { Att. = 0.241, over e5, Nc6 } 2. Nc3 e5 { Att. = 0.608, over Nc6 } 3. Nf3 Nc6 *",
+                "tot": 35396
+            },
+            "1800": {
+                "w_p": 0.505,
+                "b_p": 0.448,
+                "d_p": 0.047,
+                "prev": 0.544,
+                "prev_i": 2,
+                "att": 0.139,
+                "att_i": 7,
+                "BTL": "1. e4 ( 1. Nf3 Nc6 { Att. = 0.055, over Nf6 } 2. e4 ( 2. Nc3 e5 { Att. = 0.661, over Nf6 } 3. e4 Nf6 ) 2... Nf6 { Att. = 0.294, over e5 } 3. Nc3 e5 ) ( 1. Nc3 Nc6 { Att. = 0.259, over e5, Nf6 } 2. e4 ( 2. Nf3 e5 { Att. = 0.714, over Nf6 } 3. e4 Nf6 ) 2... e5 { Att. = 0.405, over Nf6 } 3. Nf3 Nf6 ) 1... e5 { Att. = 0.227, over Nc6, Nf6 } 2. Nf3 ( 2. Nc3 Nc6 { Att. = 0.332, over Nf6 } 3. Nf3 Nf6 ) 2... Nf6 { Att. = 0.328, over Nc6 } 3. Nc3 Nc6 *",
+                "tot": 14747
+            },
+            "MASTERS": {
+                "w_p": 0.474,
+                "b_p": 0.427,
+                "d_p": 0.099,
+                "prev": 0.467,
+                "prev_i": 2,
+                "att": 0.095,
+                "att_i": 10,
+                "BTL": "1. e4 ( 1. Nf3 Nc6 { Att. = 0.011, over Nf6 } 2. e4 ( 2. Nc3 Nf6 { Att. = 0.5, over e5 } 3. e4 e5 ) 2... e5 { Att. = 0.095, over Nf6 } 3. Nc3 Nf6 ) ( 1. Nc3 Nc6 { Att. = 0.309, over e5, Nf6 } 2. e4 ( 2. Nf3 Nf6 { Att. = 1.0, over e5 } 3. e4 e5 ) 2... e5 { Att. = 0.35, over Nf6 } 3. Nf3 Nf6 ) 1... e5 { Att. = 0.2, over Nc6, Nf6 } 2. Nf3 ( 2. Nc3 Nc6 { Att. = 0.174, over Nf6 } 3. Nf3 Nf6 ) 2... Nf6 { Att. = 0.235, over Nc6 } 3. Nc3 Nc6 *",
+                "tot": 4808
+            }
+        }
+    },
+    "Halloween Gambit": {
+        "parent": "Four Knight's Game",
+        "main": "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Nxe5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.532,
+                "b_p": 0.435,
+                "d_p": 0.033,
+                "prev": 0.002,
+                "prev_i": 450,
+                "att": 0.169,
+                "att_i": 6,
+                "tot": 797
+            },
+            "1800": {
+                "w_p": 0.556,
+                "b_p": 0.405,
+                "d_p": 0.039,
+                "prev": 0.002,
+                "prev_i": 532,
+                "att": 0.103,
+                "att_i": 10,
+                "tot": 489
+            },
+            "MASTERS": {
+                "w_p": 0.49,
+                "b_p": 0.448,
+                "d_p": 0.062,
+                "prev": 0.002,
+                "prev_i": 660,
+                "att": 0.126,
+                "att_i": 8,
+                "tot": 145
+            }
+        },
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. Nxe5",
+            "1. e4 Nc6 2. Nf3 e5 3. Nc3 Nf6 4. Nxe5",
+            "1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Nxe5",
+            "1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nc3",
+            "1. e4 Nc6 2. Nf3 e5 3. Nxe5 Nf6 4. Nc3",
+            "1. e4 Nf6 2. Nf3 e5 3. Nxe5 Nc6 4. Nc3",
+            "1. e4 e5 2. Nc3 Nc6 3. Nf3 Nf6 4. Nxe5",
+            "1. e4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. Nxe5",
+            "1. e4 Nc6 2. Nc3 e5 3. Nf3 Nf6 4. Nxe5",
+            "1. e4 Nc6 2. Nc3 Nf6 3. Nf3 e5 4. Nxe5",
+            "1. e4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. Nxe5",
+            "1. e4 Nf6 2. Nc3 Nc6 3. Nf3 e5 4. Nxe5",
+            "1. Nf3 Nc6 2. e4 e5 3. Nc3 Nf6 4. Nxe5",
+            "1. Nf3 Nc6 2. e4 Nf6 3. Nc3 e5 4. Nxe5",
+            "1. Nf3 Nf6 2. e4 e5 3. Nc3 Nc6 4. Nxe5",
+            "1. Nf3 Nc6 2. Nc3 e5 3. e4 Nf6 4. Nxe5",
+            "1. Nf3 Nc6 2. Nc3 Nf6 3. e4 e5 4. Nxe5",
+            "1. Nf3 Nf6 2. Nc3 Nc6 3. e4 e5 4. Nxe5",
+            "1. Nc3 e5 2. e4 Nc6 3. Nf3 Nf6 4. Nxe5",
+            "1. Nc3 e5 2. e4 Nf6 3. Nf3 Nc6 4. Nxe5",
+            "1. Nc3 Nc6 2. e4 e5 3. Nf3 Nf6 4. Nxe5",
+            "1. Nc3 Nc6 2. e4 Nf6 3. Nf3 e5 4. Nxe5",
+            "1. Nc3 Nf6 2. e4 e5 3. Nf3 Nc6 4. Nxe5",
+            "1. Nc3 Nf6 2. e4 Nc6 3. Nf3 e5 4. Nxe5",
+            "1. Nc3 e5 2. Nf3 Nc6 3. e4 Nf6 4. Nxe5",
+            "1. Nc3 Nc6 2. Nf3 e5 3. e4 Nf6 4. Nxe5",
+            "1. Nc3 Nc6 2. Nf3 Nf6 3. e4 e5 4. Nxe5",
+            "1. Nc3 Nf6 2. Nf3 Nc6 3. e4 e5 4. Nxe5"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.529,
+                "b_p": 0.436,
+                "d_p": 0.035,
+                "prev": 0.015,
+                "prev_i": 68,
+                "att": 0.206,
+                "att_i": 5,
+                "BTL": "1. e4 { Att. = 0.206, over Nf3, Nc3 } 1... e5 ( 1... Nc6 2. Nc3 { Att. = 0.259, over Nf3 } 2... e5 ( 2... Nf6 3. Nf3 e5 4. Nxe5 ) 3. Nf3 Nf6 4. Nxe5 ) ( 1... Nf6 2. Nc3 { Att. = 0.195, over Nf3 } 2... e5 ( 2... Nc6 3. Nf3 e5 4. Nxe5 ) 3. Nf3 Nc6 4. Nxe5 ) 2. Nc3 { Att. = 0.349, over Nf3 } 2... Nc6 ( 2... Nf6 3. Nf3 Nc6 4. Nxe5 ) 3. Nf3 Nf6 4. Nxe5 *",
+                "tot": 1040
+            },
+            "1800": {
+                "w_p": 0.543,
+                "b_p": 0.422,
+                "d_p": 0.035,
+                "prev": 0.013,
+                "prev_i": 76,
+                "att": 0.125,
+                "att_i": 8,
+                "BTL": "1. e4 { Att. = 0.125, over Nf3, Nc3 } 1... e5 ( 1... Nc6 2. Nc3 { Att. = 0.162, over Nf3 } 2... e5 ( 2... Nf6 3. Nf3 e5 4. Nxe5 ) 3. Nf3 Nf6 4. Nxe5 ) ( 1... Nf6 2. Nc3 { Att. = 0.157, over Nf3 } 2... e5 ( 2... Nc6 3. Nf3 e5 4. Nxe5 ) 3. Nf3 Nc6 4. Nxe5 ) 2. Nc3 { Att. = 0.365, over Nf3 } 2... Nc6 ( 2... Nf6 3. Nf3 Nc6 4. Nxe5 ) 3. Nf3 Nf6 4. Nxe5 *",
+                "tot": 654
+            },
+            "MASTERS": {
+                "w_p": 0.5,
+                "b_p": 0.455,
+                "d_p": 0.045,
+                "prev": 0.025,
+                "prev_i": 41,
+                "att": 0.147,
+                "att_i": 7,
+                "BTL": "1. e4 { Att. = 0.147, over Nf3, Nc3 } 1... e5 ( 1... Nc6 2. Nf3 { Att. = 0.097, over Nc3 } 2... e5 ( 2... Nf6 3. Nc3 e5 4. Nxe5 ) 3. Nc3 { Att. = 0.609, over Nxe5 } 3... Nf6 4. Nxe5 ) ( 1... Nf6 2. Nc3 { Att. = 0.165, over Nf3 } 2... e5 ( 2... Nc6 3. Nf3 e5 4. Nxe5 ) 3. Nf3 Nc6 4. Nxe5 ) 2. Nf3 { Att. = 0.756, over Nc3 } 2... Nc6 ( 2... Nf6 3. Nc3 { Att. = 0.674, over Nxe5 } 3... Nc6 4. Nxe5 ) 3. Nc3 Nf6 4. Nxe5 *",
+                "tot": 222
+            }
+        }
+    },
+    "Petrov's Defense": {
+        "main": "1. e4 e5 2. Nf3 Nf6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.517,
+                "b_p": 0.447,
+                "d_p": 0.036,
+                "prev": 0.057,
+                "prev_i": 17,
+                "att": 0.412,
+                "att_i": 2,
+                "tot": 49935
+            },
+            "1800": {
+                "w_p": 0.497,
+                "b_p": 0.457,
+                "d_p": 0.047,
+                "prev": 0.029,
+                "prev_i": 35,
+                "att": 0.394,
+                "att_i": 3,
+                "tot": 28404
+            },
+            "MASTERS": {
+                "w_p": 0.468,
+                "b_p": 0.424,
+                "d_p": 0.107,
+                "prev": 0.021,
+                "prev_i": 48,
+                "att": 0.367,
+                "att_i": 3,
+                "tot": 5824
+            }
+        },
+        "variations": [
+            "Stafford Gambit"
+        ],
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Stafford Gambit": {
+        "parent": "Petrov's Defense",
+        "main": "1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.468,
+                "b_p": 0.509,
+                "d_p": 0.023,
+                "prev": 0.004,
+                "prev_i": 238,
+                "att": 0.138,
+                "att_i": 7,
+                "tot": 1210
+            },
+            "1800": {
+                "w_p": 0.489,
+                "b_p": 0.472,
+                "d_p": 0.039,
+                "prev": 0.002,
+                "prev_i": 410,
+                "att": 0.133,
+                "att_i": 7,
+                "tot": 822
+            },
+            "MASTERS": {
+                "w_p": 0.505,
+                "b_p": 0.414,
+                "d_p": 0.081,
+                "prev": 0.003,
+                "prev_i": 347,
+                "att": 0.2,
+                "att_i": 5,
+                "tot": 442
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Philidor Defense": {
+        "main": "1. e4 e5 2. Nf3 d6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.511,
+                "b_p": 0.448,
+                "d_p": 0.041,
+                "prev": 0.093,
+                "prev_i": 11,
+                "att": 0.412,
+                "att_i": 2,
+                "tot": 81084
+            },
+            "1800": {
+                "w_p": 0.513,
+                "b_p": 0.441,
+                "d_p": 0.046,
+                "prev": 0.056,
+                "prev_i": 18,
+                "att": 0.394,
+                "att_i": 3,
+                "tot": 55752
+            },
+            "MASTERS": {
+                "w_p": 0.487,
+                "b_p": 0.443,
+                "d_p": 0.071,
+                "prev": 0.007,
+                "prev_i": 142,
+                "att": 0.367,
+                "att_i": 3,
+                "tot": 1993
+            }
+        },
+        "transpositions": [
+            "1. e4 d6 2. Nf3 e5",
+            "1. Nf3 d6 2. e4 e5"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.511,
+                "b_p": 0.448,
+                "d_p": 0.041,
+                "prev": 0.128,
+                "prev_i": 8,
+                "att": 0.417,
+                "att_i": 2,
+                "BTL": "1. e4 ( 1. Nf3 d6 2. e4 e5 ) 1... e5 { Att. = 0.622, over d6 } 2. Nf3 d6 *",
+                "tot": 83138
+            },
+            "1800": {
+                "w_p": 0.512,
+                "b_p": 0.442,
+                "d_p": 0.046,
+                "prev": 0.083,
+                "prev_i": 12,
+                "att": 0.397,
+                "att_i": 3,
+                "BTL": "1. e4 ( 1. Nf3 d6 2. e4 e5 ) 1... e5 { Att. = 0.653, over d6 } 2. Nf3 d6 *",
+                "tot": 57507
+            },
+            "MASTERS": {
+                "w_p": 0.489,
+                "b_p": 0.441,
+                "d_p": 0.07,
+                "prev": 0.013,
+                "prev_i": 79,
+                "att": 0.369,
+                "att_i": 3,
+                "BTL": "1. e4 ( 1. Nf3 d6 2. e4 e5 ) 1... e5 { Att. = 0.792, over d6 } 2. Nf3 d6 *",
+                "tot": 2037
+            }
+        }
+    },
+    "Elephant Gambit": {
+        "main": "1. e4 e5 2. Nf3 d5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.524,
+                "b_p": 0.441,
+                "d_p": 0.035,
+                "prev": 0.01,
+                "prev_i": 98,
+                "att": 0.412,
+                "att_i": 2,
+                "tot": 9043
+            },
+            "1800": {
+                "w_p": 0.468,
+                "b_p": 0.491,
+                "d_p": 0.041,
+                "prev": 0.006,
+                "prev_i": 170,
+                "att": 0.394,
+                "att_i": 3,
+                "tot": 5844
+            },
+            "MASTERS": {
+                "w_p": 0.458,
+                "b_p": 0.466,
+                "d_p": 0.076,
+                "prev": 0.006,
+                "prev_i": 174,
+                "att": 0.367,
+                "att_i": 3,
+                "tot": 1606
+            }
+        },
+        "transpositions": [
+            "1. e4 d5 2. Nf3 e5",
+            "1. Nf3 d5 2. e4 e5"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.524,
+                "b_p": 0.441,
+                "d_p": 0.035,
+                "prev": 0.016,
+                "prev_i": 63,
+                "att": 0.414,
+                "att_i": 2,
+                "BTL": "1. e4 ( 1. Nf3 d5 2. e4 e5 ) 1... e5 { Att. = 0.622, over d5 } 2. Nf3 d5 *",
+                "tot": 9124
+            },
+            "1800": {
+                "w_p": 0.468,
+                "b_p": 0.491,
+                "d_p": 0.041,
+                "prev": 0.006,
+                "prev_i": 168,
+                "att": 0.396,
+                "att_i": 3,
+                "BTL": "1. e4 ( 1. Nf3 d5 2. e4 e5 ) 1... e5 { Att. = 0.653, over d5 } 2. Nf3 d5 *",
+                "tot": 5855
+            },
+            "MASTERS": {
+                "w_p": 0.458,
+                "b_p": 0.466,
+                "d_p": 0.076,
+                "prev": 0.006,
+                "prev_i": 174,
+                "att": 0.367,
+                "att_i": 3,
+                "BTL": "1. e4 ( 1. Nf3 d5 2. e4 e5 ) 1... e5 { Att. = 0.792, over d5 } 2. Nf3 d5 *",
+                "tot": 1606
+            }
+        }
+    },
+    "Latvian Gambit": {
+        "main": "1. e4 e5 2. Nf3 f5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.51,
+                "b_p": 0.465,
+                "d_p": 0.026,
+                "prev": 0.003,
+                "prev_i": 293,
+                "att": 0.412,
+                "att_i": 2,
+                "tot": 2961
+            },
+            "1800": {
+                "w_p": 0.473,
+                "b_p": 0.488,
+                "d_p": 0.04,
+                "prev": 0.004,
+                "prev_i": 236,
+                "att": 0.394,
+                "att_i": 3,
+                "tot": 4299
+            },
+            "MASTERS": {
+                "w_p": 0.53,
+                "b_p": 0.408,
+                "d_p": 0.062,
+                "prev": 0.002,
+                "prev_i": 450,
+                "att": 0.367,
+                "att_i": 3,
+                "tot": 608
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Sicilian Defense": {
+        "main": "1. e4 c5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.484,
+                "b_p": 0.48,
+                "d_p": 0.037,
+                "prev": 0.133,
+                "prev_i": 8,
+                "att": 0.662,
+                "att_i": 2,
+                "tot": 186120
+            },
+            "1800": {
+                "w_p": 0.485,
+                "b_p": 0.471,
+                "d_p": 0.045,
+                "prev": 0.267,
+                "prev_i": 4,
+                "att": 0.603,
+                "att_i": 2,
+                "tot": 404359
+            },
+            "MASTERS": {
+                "w_p": 0.477,
+                "b_p": 0.439,
+                "d_p": 0.085,
+                "prev": 0.374,
+                "prev_i": 3,
+                "att": 0.463,
+                "att_i": 2,
+                "tot": 132778
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Scandinavian Defense": {
+        "main": "1. e4 d5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.5,
+                "b_p": 0.458,
+                "d_p": 0.042,
+                "prev": 0.093,
+                "prev_i": 11,
+                "att": 0.662,
+                "att_i": 2,
+                "tot": 130330
+            },
+            "1800": {
+                "w_p": 0.484,
+                "b_p": 0.469,
+                "d_p": 0.047,
+                "prev": 0.082,
+                "prev_i": 12,
+                "att": 0.603,
+                "att_i": 2,
+                "tot": 124152
+            },
+            "MASTERS": {
+                "w_p": 0.47,
+                "b_p": 0.44,
+                "d_p": 0.091,
+                "prev": 0.05,
+                "prev_i": 20,
+                "att": 0.463,
+                "att_i": 2,
+                "tot": 17667
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Caro-Kann Defense": {
+        "main": "1. e4 c6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.487,
+                "b_p": 0.477,
+                "d_p": 0.036,
+                "prev": 0.025,
+                "prev_i": 40,
+                "att": 0.662,
+                "att_i": 2,
+                "tot": 34996
+            },
+            "1800": {
+                "w_p": 0.472,
+                "b_p": 0.478,
+                "d_p": 0.05,
+                "prev": 0.07,
+                "prev_i": 14,
+                "att": 0.603,
+                "att_i": 2,
+                "tot": 105440
+            },
+            "MASTERS": {
+                "w_p": 0.467,
+                "b_p": 0.441,
+                "d_p": 0.092,
+                "prev": 0.121,
+                "prev_i": 8,
+                "att": 0.463,
+                "att_i": 2,
+                "tot": 43105
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "French Defense": {
+        "main": "1. e4 e6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.486,
+                "b_p": 0.476,
+                "d_p": 0.038,
+                "prev": 0.079,
+                "prev_i": 13,
+                "att": 0.662,
+                "att_i": 2,
+                "tot": 110003
+            },
+            "1800": {
+                "w_p": 0.481,
+                "b_p": 0.472,
+                "d_p": 0.047,
+                "prev": 0.125,
+                "prev_i": 8,
+                "att": 0.603,
+                "att_i": 2,
+                "tot": 188897
+            },
+            "MASTERS": {
+                "w_p": 0.476,
+                "b_p": 0.436,
+                "d_p": 0.088,
+                "prev": 0.122,
+                "prev_i": 8,
+                "att": 0.463,
+                "att_i": 2,
+                "tot": 43305
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Alekhine's Defense": {
+        "main": "1. e4 Nf6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.518,
+                "b_p": 0.443,
+                "d_p": 0.039,
+                "prev": 0.013,
+                "prev_i": 77,
+                "att": 0.662,
+                "att_i": 2,
+                "tot": 18160
+            },
+            "1800": {
+                "w_p": 0.468,
+                "b_p": 0.486,
+                "d_p": 0.046,
+                "prev": 0.018,
+                "prev_i": 56,
+                "att": 0.603,
+                "att_i": 2,
+                "tot": 27564
+            },
+            "MASTERS": {
+                "w_p": 0.467,
+                "b_p": 0.447,
+                "d_p": 0.086,
+                "prev": 0.033,
+                "prev_i": 30,
+                "att": 0.463,
+                "att_i": 2,
+                "tot": 11875
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Pirc Defense": {
+        "main": "1. e4 d6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.504,
+                "b_p": 0.455,
+                "d_p": 0.041,
+                "prev": 0.018,
+                "prev_i": 56,
+                "att": 0.662,
+                "att_i": 2,
+                "tot": 24738
+            },
+            "1800": {
+                "w_p": 0.486,
+                "b_p": 0.471,
+                "d_p": 0.043,
+                "prev": 0.036,
+                "prev_i": 28,
+                "att": 0.603,
+                "att_i": 2,
+                "tot": 54115
+            },
+            "MASTERS": {
+                "w_p": 0.483,
+                "b_p": 0.437,
+                "d_p": 0.08,
+                "prev": 0.049,
+                "prev_i": 20,
+                "att": 0.463,
+                "att_i": 2,
+                "tot": 17246
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Modern Defense": {
+        "main": "1. e4 g6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.488,
+                "b_p": 0.472,
+                "d_p": 0.04,
+                "prev": 0.023,
+                "prev_i": 43,
+                "att": 0.662,
+                "att_i": 2,
+                "tot": 31767
+            },
+            "1800": {
+                "w_p": 0.497,
+                "b_p": 0.458,
+                "d_p": 0.045,
+                "prev": 0.033,
+                "prev_i": 30,
+                "att": 0.603,
+                "att_i": 2,
+                "tot": 50100
+            },
+            "MASTERS": {
+                "w_p": 0.466,
+                "b_p": 0.456,
+                "d_p": 0.077,
+                "prev": 0.04,
+                "prev_i": 25,
+                "att": 0.463,
+                "att_i": 2,
+                "tot": 14257
+            }
+        },
+        "variations": [
+            "Hippopotamus Defense"
+        ],
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Owen's Defense": {
+        "main": "1. e4 b6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.493,
+                "b_p": 0.467,
+                "d_p": 0.039,
+                "prev": 0.016,
+                "prev_i": 62,
+                "att": 0.662,
+                "att_i": 2,
+                "tot": 21893
+            },
+            "1800": {
+                "w_p": 0.509,
+                "b_p": 0.45,
+                "d_p": 0.041,
+                "prev": 0.019,
+                "prev_i": 53,
+                "att": 0.603,
+                "att_i": 2,
+                "tot": 29177
+            },
+            "MASTERS": {
+                "w_p": 0.495,
+                "b_p": 0.438,
+                "d_p": 0.067,
+                "prev": 0.006,
+                "prev_i": 167,
+                "att": 0.463,
+                "att_i": 2,
+                "tot": 1962
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Hippopotamus Defense": {
+        "parent": [
+            "Modern Defense",
+            "Owen's Defense"
+        ],
+        "main": "[SYSTEM]",
+        "stats_main": {
+            "1200": {},
+            "1800": {},
+            "MASTERS": {}
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Nimzowitsch Defense": {
+        "main": "1. e4 Nc6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.507,
+                "b_p": 0.457,
+                "d_p": 0.036,
+                "prev": 0.02,
+                "prev_i": 50,
+                "att": 0.662,
+                "att_i": 2,
+                "tot": 28303
+            },
+            "1800": {
+                "w_p": 0.484,
+                "b_p": 0.477,
+                "d_p": 0.04,
+                "prev": 0.016,
+                "prev_i": 62,
+                "att": 0.603,
+                "att_i": 2,
+                "tot": 24363
+            },
+            "MASTERS": {
+                "w_p": 0.484,
+                "b_p": 0.443,
+                "d_p": 0.073,
+                "prev": 0.015,
+                "prev_i": 67,
+                "att": 0.463,
+                "att_i": 2,
+                "tot": 5282
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Queen's Pawn Game": {
+        "main": "1. d4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.508,
+                "b_p": 0.453,
+                "d_p": 0.039,
+                "prev": 0.21,
+                "prev_i": 5,
+                "att": 1,
+                "att_i": 1,
+                "tot": 442856
+            },
+            "1800": {
+                "w_p": 0.5,
+                "b_p": 0.452,
+                "d_p": 0.048,
+                "prev": 0.257,
+                "prev_i": 4,
+                "att": 1,
+                "att_i": 1,
+                "tot": 645986
+            },
+            "MASTERS": {
+                "w_p": 0.48,
+                "b_p": 0.429,
+                "d_p": 0.091,
+                "prev": 0.336,
+                "prev_i": 3,
+                "att": 1,
+                "att_i": 1,
+                "tot": 257640
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Closed Game": {
+        "main": "1. d4 d5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.514,
+                "b_p": 0.447,
+                "d_p": 0.04,
+                "prev": 0.556,
+                "prev_i": 2,
+                "att": 0.21,
+                "att_i": 5,
+                "tot": 246136
+            },
+            "1800": {
+                "w_p": 0.509,
+                "b_p": 0.441,
+                "d_p": 0.051,
+                "prev": 0.403,
+                "prev_i": 2,
+                "att": 0.257,
+                "att_i": 4,
+                "tot": 260144
+            },
+            "MASTERS": {
+                "w_p": 0.481,
+                "b_p": 0.422,
+                "d_p": 0.098,
+                "prev": 0.268,
+                "prev_i": 4,
+                "att": 0.336,
+                "att_i": 3,
+                "tot": 69061
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Queen's Gambit": {
+        "main": "1. d4 d5 2. c4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.53,
+                "b_p": 0.431,
+                "d_p": 0.038,
+                "prev": 0.075,
+                "prev_i": 13,
+                "att": 0.556,
+                "att_i": 2,
+                "tot": 88297
+            },
+            "1800": {
+                "w_p": 0.509,
+                "b_p": 0.441,
+                "d_p": 0.049,
+                "prev": 0.126,
+                "prev_i": 8,
+                "att": 0.403,
+                "att_i": 2,
+                "tot": 127214
+            },
+            "MASTERS": {
+                "w_p": 0.483,
+                "b_p": 0.419,
+                "d_p": 0.098,
+                "prev": 0.174,
+                "prev_i": 6,
+                "att": 0.268,
+                "att_i": 4,
+                "tot": 35839
+            }
+        },
+        "variations": [
+            "Queen's Gambit Accepted",
+            "Queen's Gambit Declined",
+            "Slav Defense",
+            "Albin Countergambit",
+            "Chigorin Defense",
+            "Baltic Defense"
+        ],
+        "transpositions": [
+            "1. c4 d5 2. d4"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.53,
+                "b_p": 0.431,
+                "d_p": 0.039,
+                "prev": 0.077,
+                "prev_i": 13,
+                "att": 0.556,
+                "att_i": 2,
+                "BTL": "1. d4 { Att. = 0.556, over c4 } 1... d5 2. c4 *",
+                "tot": 88688
+            },
+            "1800": {
+                "w_p": 0.509,
+                "b_p": 0.441,
+                "d_p": 0.05,
+                "prev": 0.127,
+                "prev_i": 8,
+                "att": 0.403,
+                "att_i": 2,
+                "BTL": "1. d4 { Att. = 0.403, over c4 } 1... d5 2. c4 *",
+                "tot": 127440
+            },
+            "MASTERS": {
+                "w_p": 0.483,
+                "b_p": 0.419,
+                "d_p": 0.098,
+                "prev": 0.175,
+                "prev_i": 6,
+                "att": 0.268,
+                "att_i": 4,
+                "BTL": "1. d4 { Att. = 0.268, over c4 } 1... d5 2. c4 *",
+                "tot": 35848
+            }
+        }
+    },
+    "Queen's Gambit Accepted": {
+        "parent": "Queen's Gambit",
+        "main": "1. d4 d5 2. c4 dxc4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.546,
+                "b_p": 0.415,
+                "d_p": 0.038,
+                "prev": 0.224,
+                "prev_i": 4,
+                "att": 0.075,
+                "att_i": 13,
+                "tot": 35539
+            },
+            "1800": {
+                "w_p": 0.534,
+                "b_p": 0.42,
+                "d_p": 0.046,
+                "prev": 0.07,
+                "prev_i": 14,
+                "att": 0.126,
+                "att_i": 8,
+                "tot": 22116
+            },
+            "MASTERS": {
+                "w_p": 0.463,
+                "b_p": 0.425,
+                "d_p": 0.112,
+                "prev": 0.029,
+                "prev_i": 34,
+                "att": 0.174,
+                "att_i": 6,
+                "tot": 3958
+            }
+        },
+        "transpositions": [
+            "1. c4 d5 2. d4 dxc4"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.546,
+                "b_p": 0.415,
+                "d_p": 0.039,
+                "prev": 0.308,
+                "prev_i": 3,
+                "att": 0.077,
+                "att_i": 13,
+                "BTL": "1. d4 ( 1. c4 d5 2. d4 dxc4 ) 1... d5 2. c4 dxc4 *",
+                "tot": 35804
+            },
+            "1800": {
+                "w_p": 0.534,
+                "b_p": 0.42,
+                "d_p": 0.046,
+                "prev": 0.103,
+                "prev_i": 10,
+                "att": 0.127,
+                "att_i": 8,
+                "BTL": "1. d4 ( 1. c4 d5 2. d4 dxc4 ) 1... d5 2. c4 dxc4 *",
+                "tot": 22235
+            },
+            "MASTERS": {
+                "w_p": 0.463,
+                "b_p": 0.425,
+                "d_p": 0.112,
+                "prev": 0.033,
+                "prev_i": 30,
+                "att": 0.175,
+                "att_i": 6,
+                "BTL": "1. d4 ( 1. c4 d5 2. d4 dxc4 ) 1... d5 2. c4 dxc4 *",
+                "tot": 3961
+            }
+        }
+    },
+    "Queen's Gambit Declined": {
+        "parent": "Queen's Gambit",
+        "main": "1. d4 d5 2. c4 e6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.51,
+                "b_p": 0.452,
+                "d_p": 0.038,
+                "prev": 0.108,
+                "prev_i": 9,
+                "att": 0.075,
+                "att_i": 13,
+                "tot": 17165
+            },
+            "1800": {
+                "w_p": 0.501,
+                "b_p": 0.447,
+                "d_p": 0.052,
+                "prev": 0.126,
+                "prev_i": 8,
+                "att": 0.126,
+                "att_i": 8,
+                "tot": 39699
+            },
+            "MASTERS": {
+                "w_p": 0.485,
+                "b_p": 0.417,
+                "d_p": 0.098,
+                "prev": 0.109,
+                "prev_i": 9,
+                "att": 0.174,
+                "att_i": 6,
+                "tot": 14549
+            }
+        },
+        "transpositions": [
+            "1. d4 e6 2. c4 d5",
+            "1. c4 d5 2. d4 e6",
+            "1. c4 e6 2. d4 d5"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.511,
+                "b_p": 0.452,
+                "d_p": 0.037,
+                "prev": 0.189,
+                "prev_i": 5,
+                "att": 0.08,
+                "att_i": 12,
+                "BTL": "1. d4 ( 1. c4 e6 { Att. = 0.19, over d5 } 2. d4 d5 ) 1... d5 { Att. = 0.359, over e6 } 2. c4 e6 *",
+                "tot": 21818
+            },
+            "1800": {
+                "w_p": 0.502,
+                "b_p": 0.447,
+                "d_p": 0.051,
+                "prev": 0.234,
+                "prev_i": 4,
+                "att": 0.131,
+                "att_i": 8,
+                "BTL": "1. d4 ( 1. c4 e6 { Att. = 0.127, over d5 } 2. d4 d5 ) 1... d5 { Att. = 0.489, over e6 } 2. c4 e6 *",
+                "tot": 54013
+            },
+            "MASTERS": {
+                "w_p": 0.488,
+                "b_p": 0.415,
+                "d_p": 0.096,
+                "prev": 0.229,
+                "prev_i": 4,
+                "att": 0.178,
+                "att_i": 6,
+                "BTL": "1. d4 ( 1. c4 e6 { Att. = 0.058, over d5 } 2. d4 d5 ) 1... d5 { Att. = 0.519, over e6 } 2. c4 e6 *",
+                "tot": 16998
+            }
+        }
+    },
+    "Slav Defense": {
+        "parent": "Queen's Gambit",
+        "main": "1. d4 d5 2. c4 c6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.518,
+                "b_p": 0.44,
+                "d_p": 0.043,
+                "prev": 0.067,
+                "prev_i": 15,
+                "att": 0.075,
+                "att_i": 13,
+                "tot": 10670
+            },
+            "1800": {
+                "w_p": 0.499,
+                "b_p": 0.448,
+                "d_p": 0.053,
+                "prev": 0.101,
+                "prev_i": 10,
+                "att": 0.126,
+                "att_i": 8,
+                "tot": 31850
+            },
+            "MASTERS": {
+                "w_p": 0.488,
+                "b_p": 0.415,
+                "d_p": 0.097,
+                "prev": 0.101,
+                "prev_i": 10,
+                "att": 0.174,
+                "att_i": 6,
+                "tot": 13510
+            }
+        },
+        "transpositions": [
+            "1. d4 c6 2. c4 d5",
+            "1. c4 d5 2. d4 c6",
+            "1. c4 c6 2. d4 d5"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.518,
+                "b_p": 0.442,
+                "d_p": 0.041,
+                "prev": 0.097,
+                "prev_i": 10,
+                "att": 0.08,
+                "att_i": 12,
+                "BTL": "1. d4 ( 1. c4 c6 { Att. = 0.191, over d5 } 2. d4 d5 ) 1... d5 { Att. = 0.359, over c6 } 2. c4 c6 *",
+                "tot": 12203
+            },
+            "1800": {
+                "w_p": 0.5,
+                "b_p": 0.447,
+                "d_p": 0.053,
+                "prev": 0.171,
+                "prev_i": 6,
+                "att": 0.132,
+                "att_i": 8,
+                "BTL": "1. d4 ( 1. c4 c6 { Att. = 0.149, over d5 } 2. d4 d5 ) 1... d5 { Att. = 0.489, over c6 } 2. c4 c6 *",
+                "tot": 39534
+            },
+            "MASTERS": {
+                "w_p": 0.492,
+                "b_p": 0.41,
+                "d_p": 0.097,
+                "prev": 0.197,
+                "prev_i": 5,
+                "att": 0.182,
+                "att_i": 5,
+                "BTL": "1. d4 ( 1. c4 c6 { Att. = 0.134, over d5 } 2. d4 d5 ) 1... d5 { Att. = 0.519, over c6 } 2. c4 c6 *",
+                "tot": 15633
+            }
+        }
+    },
+    "Albin Countergambit": {
+        "parent": "Queen's Gambit",
+        "main": "1. d4 d5 2. c4 e5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.512,
+                "b_p": 0.453,
+                "d_p": 0.035,
+                "prev": 0.014,
+                "prev_i": 72,
+                "att": 0.075,
+                "att_i": 13,
+                "tot": 2250
+            },
+            "1800": {
+                "w_p": 0.473,
+                "b_p": 0.483,
+                "d_p": 0.044,
+                "prev": 0.02,
+                "prev_i": 50,
+                "att": 0.126,
+                "att_i": 8,
+                "tot": 6383
+            },
+            "MASTERS": {
+                "w_p": 0.463,
+                "b_p": 0.453,
+                "d_p": 0.084,
+                "prev": 0.009,
+                "prev_i": 107,
+                "att": 0.174,
+                "att_i": 6,
+                "tot": 1267
+            }
+        },
+        "transpositions": [
+            "1. c4 d5 2. d4 e5",
+            "1. c4 e5 2. d4 d5"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.508,
+                "b_p": 0.458,
+                "d_p": 0.034,
+                "prev": 0.032,
+                "prev_i": 31,
+                "att": 0.077,
+                "att_i": 13,
+                "BTL": "1. d4 ( 1. c4 e5 { Att. = 0.063, over d5 } 2. d4 d5 ) 1... d5 2. c4 e5 *",
+                "tot": 2315
+            },
+            "1800": {
+                "w_p": 0.473,
+                "b_p": 0.483,
+                "d_p": 0.044,
+                "prev": 0.024,
+                "prev_i": 42,
+                "att": 0.127,
+                "att_i": 8,
+                "BTL": "1. d4 ( 1. c4 d5 { Att. = 0.036, over e5 } 2. d4 e5 ) 1... d5 2. c4 e5 *",
+                "tot": 6395
+            },
+            "MASTERS": {
+                "w_p": 0.463,
+                "b_p": 0.453,
+                "d_p": 0.084,
+                "prev": 0.009,
+                "prev_i": 107,
+                "att": 0.174,
+                "att_i": 6,
+                "BTL": "1. d4 ( 1. c4 { No stats. } ) 1... d5 2. c4 e5 *",
+                "tot": 1267
+            }
+        }
+    },
+    "Chigorin Defense": {
+        "parent": "Queen's Gambit",
+        "main": "1. d4 d5 2. c4 Nc6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.539,
+                "b_p": 0.424,
+                "d_p": 0.037,
+                "prev": 0.018,
+                "prev_i": 55,
+                "att": 0.075,
+                "att_i": 13,
+                "tot": 2889
+            },
+            "1800": {
+                "w_p": 0.512,
+                "b_p": 0.445,
+                "d_p": 0.043,
+                "prev": 0.008,
+                "prev_i": 118,
+                "att": 0.126,
+                "att_i": 8,
+                "tot": 2644
+            },
+            "MASTERS": {
+                "w_p": 0.494,
+                "b_p": 0.424,
+                "d_p": 0.082,
+                "prev": 0.008,
+                "prev_i": 129,
+                "att": 0.174,
+                "att_i": 6,
+                "tot": 1043
+            }
+        },
+        "transpositions": [
+            "1. d4 Nc6 2. c4 d5",
+            "1. c4 d5 2. d4 Nc6",
+            "1. c4 Nc6 2. d4 d5"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.534,
+                "b_p": 0.429,
+                "d_p": 0.036,
+                "prev": 0.03,
+                "prev_i": 34,
+                "att": 0.079,
+                "att_i": 13,
+                "BTL": "1. d4 ( 1. c4 Nc6 { Att. = 0.158, over d5 } 2. d4 d5 ) 1... d5 { Att. = 0.359, over Nc6 } 2. c4 Nc6 *",
+                "tot": 3234
+            },
+            "1800": {
+                "w_p": 0.514,
+                "b_p": 0.442,
+                "d_p": 0.044,
+                "prev": 0.015,
+                "prev_i": 67,
+                "att": 0.131,
+                "att_i": 8,
+                "BTL": "1. d4 ( 1. c4 Nc6 { Att. = 0.128, over d5 } 2. d4 d5 ) 1... d5 { Att. = 0.489, over Nc6 } 2. c4 Nc6 *",
+                "tot": 2965
+            },
+            "MASTERS": {
+                "w_p": 0.494,
+                "b_p": 0.424,
+                "d_p": 0.082,
+                "prev": 0.011,
+                "prev_i": 94,
+                "att": 0.182,
+                "att_i": 5,
+                "BTL": "1. d4 ( 1. c4 Nc6 { Att. = 0.135, over d5 } 2. d4 d5 ) 1... d5 { Att. = 0.519, over Nc6 } 2. c4 Nc6 *",
+                "tot": 1073
+            }
+        }
+    },
+    "Baltic Defense": {
+        "parent": "Queen's Gambit",
+        "main": "1. d4 d5 2. c4 Bf5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.533,
+                "b_p": 0.435,
+                "d_p": 0.032,
+                "prev": 0.012,
+                "prev_i": 86,
+                "att": 0.075,
+                "att_i": 13,
+                "tot": 1838
+            },
+            "1800": {
+                "w_p": 0.528,
+                "b_p": 0.422,
+                "d_p": 0.05,
+                "prev": 0.014,
+                "prev_i": 73,
+                "att": 0.126,
+                "att_i": 8,
+                "tot": 4379
+            },
+            "MASTERS": {
+                "w_p": 0.436,
+                "b_p": 0.47,
+                "d_p": 0.094,
+                "prev": 0.003,
+                "prev_i": 311,
+                "att": 0.174,
+                "att_i": 6,
+                "tot": 438
+            }
+        },
+        "transpositions": [
+            "1. c4 d5 2. d4 Bf5"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.533,
+                "b_p": 0.435,
+                "d_p": 0.032,
+                "prev": 0.015,
+                "prev_i": 67,
+                "att": 0.077,
+                "att_i": 13,
+                "BTL": "1. d4 ( 1. c4 d5 2. d4 Bf5 ) 1... d5 2. c4 Bf5 *",
+                "tot": 1848
+            },
+            "1800": {
+                "w_p": 0.528,
+                "b_p": 0.422,
+                "d_p": 0.05,
+                "prev": 0.016,
+                "prev_i": 64,
+                "att": 0.127,
+                "att_i": 8,
+                "BTL": "1. d4 ( 1. c4 d5 2. d4 Bf5 ) 1... d5 2. c4 Bf5 *",
+                "tot": 4386
+            },
+            "MASTERS": {
+                "w_p": 0.436,
+                "b_p": 0.47,
+                "d_p": 0.094,
+                "prev": 0.003,
+                "prev_i": 311,
+                "att": 0.174,
+                "att_i": 6,
+                "BTL": "1. d4 ( 1. c4 d5 2. d4 Bf5 ) 1... d5 2. c4 Bf5 *",
+                "tot": 438
+            }
+        }
+    },
+    "Blackmar-Diemer Gambit": {
+        "main": "1. d4 d5 2. e4 dxe4 3. Nc3",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.516,
+                "b_p": 0.456,
+                "d_p": 0.028,
+                "prev": 0.004,
+                "prev_i": 255,
+                "att": 0.341,
+                "att_i": 3,
+                "tot": 2857
+            },
+            "1800": {
+                "w_p": 0.54,
+                "b_p": 0.421,
+                "d_p": 0.039,
+                "prev": 0.004,
+                "prev_i": 276,
+                "att": 0.274,
+                "att_i": 4,
+                "tot": 2539
+            },
+            "MASTERS": {
+                "w_p": 0.411,
+                "b_p": 0.515,
+                "d_p": 0.074,
+                "prev": 0.001,
+                "prev_i": 799,
+                "att": 0.192,
+                "att_i": 5,
+                "tot": 202
+            }
+        },
+        "transpositions": [
+            "1. e4 d5 2. d4 dxe4 3. Nc3"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.506,
+                "b_p": 0.459,
+                "d_p": 0.035,
+                "prev": 0.013,
+                "prev_i": 78,
+                "att": 0.341,
+                "att_i": 3,
+                "BTL": "1. d4 { Att. = 0.341, over e4 } 1... d5 2. e4 dxe4 3. Nc3 *",
+                "tot": 4296
+            },
+            "1800": {
+                "w_p": 0.529,
+                "b_p": 0.433,
+                "d_p": 0.038,
+                "prev": 0.009,
+                "prev_i": 108,
+                "att": 0.274,
+                "att_i": 4,
+                "BTL": "1. d4 { Att. = 0.274, over e4 } 1... d5 2. e4 dxe4 3. Nc3 *",
+                "tot": 3587
+            },
+            "MASTERS": {
+                "w_p": 0.445,
+                "b_p": 0.473,
+                "d_p": 0.082,
+                "prev": 0.006,
+                "prev_i": 161,
+                "att": 0.192,
+                "att_i": 5,
+                "BTL": "1. d4 { Att. = 0.192, over e4 } 1... d5 2. e4 dxe4 3. Nc3 *",
+                "tot": 364
+            }
+        }
+    },
+    "Indian Defense": {
+        "main": "1. d4 Nf6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.492,
+                "b_p": 0.471,
+                "d_p": 0.037,
+                "prev": 0.122,
+                "prev_i": 8,
+                "att": 0.21,
+                "att_i": 5,
+                "tot": 54060
+            },
+            "1800": {
+                "w_p": 0.489,
+                "b_p": 0.463,
+                "d_p": 0.049,
+                "prev": 0.265,
+                "prev_i": 4,
+                "att": 0.257,
+                "att_i": 4,
+                "tot": 171259
+            },
+            "MASTERS": {
+                "w_p": 0.478,
+                "b_p": 0.429,
+                "d_p": 0.093,
+                "prev": 0.485,
+                "prev_i": 2,
+                "att": 0.336,
+                "att_i": 3,
+                "tot": 124838
+            }
+        },
+        "variations": [
+            "Benoni Defense",
+            "Budapest Gambit",
+            "King's Indian Defense",
+            "Grunfeld Defense",
+            "Nimzo-Indian Defense",
+            "Queen's Indian Defense",
+            "Bogo-Indian Defense",
+            "Catalan Opening",
+            "Trompowsky Attack"
+        ],
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "King's Indian Defense": {
+        "parent": "Indian Defense",
+        "main": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.501,
+                "b_p": 0.462,
+                "d_p": 0.038,
+                "prev": 0.028,
+                "prev_i": 36,
+                "att": 0.042,
+                "att_i": 24,
+                "tot": 2442
+            },
+            "1800": {
+                "w_p": 0.485,
+                "b_p": 0.469,
+                "d_p": 0.046,
+                "prev": 0.061,
+                "prev_i": 16,
+                "att": 0.106,
+                "att_i": 9,
+                "tot": 16363
+            },
+            "MASTERS": {
+                "w_p": 0.484,
+                "b_p": 0.431,
+                "d_p": 0.085,
+                "prev": 0.107,
+                "prev_i": 9,
+                "att": 0.132,
+                "att_i": 8,
+                "tot": 10801
+            }
+        },
+        "transpositions": [
+            "1. d4 g6 2. c4 Nf6 3. Nc3 Bg7",
+            "1. d4 g6 2. c4 Bg7 3. Nc3 Nf6",
+            "1. c4 Nf6 2. d4 g6 3. Nc3 Bg7",
+            "1. c4 g6 2. d4 Nf6 3. Nc3 Bg7",
+            "1. c4 g6 2. d4 Bg7 3. Nc3 Nf6",
+            "1. c4 Nf6 2. Nc3 g6 3. d4 Bg7",
+            "1. c4 g6 2. Nc3 Nf6 3. d4 Bg7",
+            "1. c4 g6 2. Nc3 Bg7 3. d4 Nf6"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.497,
+                "b_p": 0.467,
+                "d_p": 0.036,
+                "prev": 0.106,
+                "prev_i": 9,
+                "att": 0.047,
+                "att_i": 21,
+                "BTL": "1. d4 ( 1. c4 g6 { Att. = 0.218, over Nf6 } 2. d4 ( 2. Nc3 Bg7 { Att. = 0.257, over Nf6 } 3. d4 Nf6 ) 2... Nf6 { Att. = 0.467, over Bg7 } 3. Nc3 Bg7 ) 1... Nf6 { Att. = 0.199, over g6 } 2. c4 g6 3. Nc3 Bg7 *",
+                "tot": 3223
+            },
+            "1800": {
+                "w_p": 0.489,
+                "b_p": 0.466,
+                "d_p": 0.045,
+                "prev": 0.221,
+                "prev_i": 5,
+                "att": 0.117,
+                "att_i": 9,
+                "BTL": "1. d4 ( 1. c4 g6 { Att. = 0.261, over Nf6 } 2. d4 ( 2. Nc3 Nf6 { Att. = 0.303, over Bg7 } 3. d4 Bg7 ) 2... Nf6 { Att. = 0.643, over Bg7 } 3. Nc3 Bg7 ) 1... Nf6 { Att. = 0.413, over g6 } 2. c4 g6 3. Nc3 Bg7 *",
+                "tot": 19965
+            },
+            "MASTERS": {
+                "w_p": 0.484,
+                "b_p": 0.431,
+                "d_p": 0.085,
+                "prev": 0.302,
+                "prev_i": 3,
+                "att": 0.144,
+                "att_i": 7,
+                "BTL": "1. d4 ( 1. c4 g6 { Att. = 0.195, over Nf6 } 2. d4 ( 2. Nc3 Bg7 { Att. = 0.285, over Nf6 } 3. d4 Nf6 ) 2... Nf6 { Att. = 0.611, over Bg7 } 3. Nc3 Bg7 ) 1... Nf6 { Att. = 0.393, over g6 } 2. c4 g6 3. Nc3 Bg7 *",
+                "tot": 11566
+            }
+        }
+    },
+    "Grunfeld Defense": {
+        "parent": "Indian Defense",
+        "main": "1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.44,
+                "b_p": 0.5,
+                "d_p": 0.06,
+                "prev": 0.002,
+                "prev_i": 483,
+                "att": 0.042,
+                "att_i": 24,
+                "tot": 182
+            },
+            "1800": {
+                "w_p": 0.444,
+                "b_p": 0.495,
+                "d_p": 0.061,
+                "prev": 0.019,
+                "prev_i": 51,
+                "att": 0.106,
+                "att_i": 9,
+                "tot": 5197
+            },
+            "MASTERS": {
+                "w_p": 0.477,
+                "b_p": 0.42,
+                "d_p": 0.103,
+                "prev": 0.054,
+                "prev_i": 18,
+                "att": 0.132,
+                "att_i": 8,
+                "tot": 5499
+            }
+        },
+        "transpositions": [
+            "1. d4 Nf6 2. c4 d5 3. Nc3 g6",
+            "1. d4 g6 2. c4 Nf6 3. Nc3 d5",
+            "1. d4 g6 2. c4 d5 3. Nc3 Nf6",
+            "1. d4 d5 2. c4 Nf6 3. Nc3 g6",
+            "1. d4 d5 2. c4 g6 3. Nc3 Nf6",
+            "1. c4 Nf6 2. d4 g6 3. Nc3 d5",
+            "1. c4 Nf6 2. d4 d5 3. Nc3 g6",
+            "1. c4 g6 2. d4 Nf6 3. Nc3 d5",
+            "1. c4 g6 2. d4 d5 3. Nc3 Nf6",
+            "1. c4 d5 2. d4 Nf6 3. Nc3 g6",
+            "1. c4 d5 2. d4 g6 3. Nc3 Nf6",
+            "1. c4 Nf6 2. Nc3 g6 3. d4 d5",
+            "1. c4 Nf6 2. Nc3 d5 3. d4 g6",
+            "1. c4 g6 2. Nc3 Nf6 3. d4 d5",
+            "1. c4 d5 2. Nc3 Nf6 3. d4 g6"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.468,
+                "b_p": 0.484,
+                "d_p": 0.048,
+                "prev": 0.01,
+                "prev_i": 96,
+                "att": 0.047,
+                "att_i": 21,
+                "BTL": "1. d4 ( 1. c4 g6 { Att. = 0.188, over Nf6, d5 } 2. d4 ( 2. Nc3 Nf6 3. d4 d5 ) 2... Nf6 { Att. = 0.467, over d5 } 3. Nc3 d5 ) 1... Nf6 { Att. = 0.199, over g6, d5 } 2. c4 g6 { Att. = 0.597, over d5 } 3. Nc3 d5 *",
+                "tot": 434
+            },
+            "1800": {
+                "w_p": 0.448,
+                "b_p": 0.493,
+                "d_p": 0.059,
+                "prev": 0.051,
+                "prev_i": 19,
+                "att": 0.117,
+                "att_i": 9,
+                "BTL": "1. d4 ( 1. c4 g6 { Att. = 0.261, over Nf6, d5 } 2. d4 ( 2. Nc3 Nf6 3. d4 d5 ) 2... Nf6 { Att. = 0.643, over d5 } 3. Nc3 d5 ) 1... Nf6 { Att. = 0.413, over g6, d5 } 2. c4 g6 { Att. = 0.826, over d5 } 3. Nc3 d5 *",
+                "tot": 6361
+            },
+            "MASTERS": {
+                "w_p": 0.477,
+                "b_p": 0.42,
+                "d_p": 0.103,
+                "prev": 0.128,
+                "prev_i": 8,
+                "att": 0.14,
+                "att_i": 7,
+                "BTL": "1. d4 ( 1. c4 g6 { Att. = 0.13, over Nf6, d5 } 2. d4 ( 2. Nc3 Nf6 3. d4 d5 ) 2... Nf6 { Att. = 0.611, over d5 } 3. Nc3 d5 ) 1... Nf6 { Att. = 0.393, over g6, d5 } 2. c4 g6 { Att. = 0.798, over d5 } 3. Nc3 d5 *",
+                "tot": 5707
+            }
+        }
+    },
+    "Nimzo-Indian Defense": {
+        "parent": "Indian Defense",
+        "main": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.503,
+                "b_p": 0.466,
+                "d_p": 0.03,
+                "prev": 0.014,
+                "prev_i": 73,
+                "att": 0.039,
+                "att_i": 26,
+                "tot": 1117
+            },
+            "1800": {
+                "w_p": 0.487,
+                "b_p": 0.464,
+                "d_p": 0.048,
+                "prev": 0.044,
+                "prev_i": 23,
+                "att": 0.089,
+                "att_i": 11,
+                "tot": 9957
+            },
+            "MASTERS": {
+                "w_p": 0.467,
+                "b_p": 0.439,
+                "d_p": 0.093,
+                "prev": 0.139,
+                "prev_i": 7,
+                "att": 0.085,
+                "att_i": 12,
+                "tot": 9107
+            }
+        },
+        "transpositions": [
+            "1. d4 e6 2. c4 Nf6 3. Nc3 Bb4",
+            "1. d4 e6 2. c4 Bb4+ 3. Nc3 Nf6",
+            "1. c4 Nf6 2. d4 e6 3. Nc3 Bb4",
+            "1. c4 e6 2. d4 Nf6 3. Nc3 Bb4",
+            "1. c4 e6 2. d4 Bb4+ 3. Nc3 Nf6",
+            "1. c4 Nf6 2. Nc3 e6 3. d4 Bb4",
+            "1. c4 e6 2. Nc3 Nf6 3. d4 Bb4",
+            "1. c4 e6 2. Nc3 Bb4 3. d4 Nf6"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.501,
+                "b_p": 0.463,
+                "d_p": 0.036,
+                "prev": 0.035,
+                "prev_i": 28,
+                "att": 0.043,
+                "att_i": 23,
+                "BTL": "1. d4 ( 1. c4 Nf6 { Att. = 0.169, over e6 } 2. d4 ( 2. Nc3 e6 3. d4 Bb4 ) 2... e6 3. Nc3 Bb4 ) 1... Nf6 { Att. = 0.184, over e6 } 2. c4 e6 3. Nc3 Bb4 *",
+                "tot": 1460
+            },
+            "1800": {
+                "w_p": 0.487,
+                "b_p": 0.464,
+                "d_p": 0.049,
+                "prev": 0.104,
+                "prev_i": 10,
+                "att": 0.097,
+                "att_i": 10,
+                "BTL": "1. d4 ( 1. c4 e6 { Att. = 0.198, over Nf6 } 2. d4 ( 2. Nc3 Nf6 { Att. = 0.216, over Bb4 } 3. d4 Bb4 ) 2... Nf6 { Att. = 0.648, over Bb4+ } 3. Nc3 Bb4 ) 1... Nf6 { Att. = 0.347, over e6 } 2. c4 e6 3. Nc3 Bb4 *",
+                "tot": 11398
+            },
+            "MASTERS": {
+                "w_p": 0.467,
+                "b_p": 0.44,
+                "d_p": 0.093,
+                "prev": 0.253,
+                "prev_i": 4,
+                "att": 0.093,
+                "att_i": 11,
+                "BTL": "1. d4 ( 1. c4 e6 { Att. = 0.133, over Nf6 } 2. d4 ( 2. Nc3 Nf6 { Att. = 0.264, over Bb4 } 3. d4 Bb4 ) 2... Nf6 { Att. = 0.467, over Bb4+ } 3. Nc3 Bb4 ) 1... Nf6 { Att. = 0.254, over e6 } 2. c4 e6 3. Nc3 Bb4 *",
+                "tot": 9883
+            }
+        }
+    },
+    "Queen's Indian Defense": {
+        "parent": "Indian Defense",
+        "main": "1. d4 Nf6 2. c4 e6 3. Nf3 b6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.423,
+                "b_p": 0.493,
+                "d_p": 0.085,
+                "prev": 0.003,
+                "prev_i": 355,
+                "att": 0.012,
+                "att_i": 84,
+                "tot": 71
+            },
+            "1800": {
+                "w_p": 0.51,
+                "b_p": 0.447,
+                "d_p": 0.043,
+                "prev": 0.016,
+                "prev_i": 61,
+                "att": 0.022,
+                "att_i": 46,
+                "tot": 894
+            },
+            "MASTERS": {
+                "w_p": 0.486,
+                "b_p": 0.408,
+                "d_p": 0.106,
+                "prev": 0.052,
+                "prev_i": 19,
+                "att": 0.056,
+                "att_i": 18,
+                "tot": 2233
+            }
+        },
+        "transpositions": [
+            "1. d4 Nf6 2. c4 b6 3. Nf3 e6",
+            "1. d4 e6 2. c4 Nf6 3. Nf3 b6",
+            "1. d4 b6 2. c4 Nf6 3. Nf3 e6",
+            "1. d4 Nf6 2. Nf3 e6 3. c4 b6",
+            "1. d4 Nf6 2. Nf3 b6 3. c4 e6",
+            "1. d4 e6 2. Nf3 Nf6 3. c4 b6",
+            "1. c4 Nf6 2. d4 e6 3. Nf3 b6",
+            "1. c4 Nf6 2. d4 b6 3. Nf3 e6",
+            "1. c4 e6 2. d4 Nf6 3. Nf3 b6",
+            "1. c4 b6 2. d4 Nf6 3. Nf3 e6",
+            "1. c4 Nf6 2. Nf3 e6 3. d4 b6",
+            "1. c4 Nf6 2. Nf3 b6 3. d4 e6",
+            "1. c4 e6 2. Nf3 Nf6 3. d4 b6",
+            "1. c4 b6 2. Nf3 Nf6 3. d4 e6",
+            "1. Nf3 Nf6 2. d4 e6 3. c4 b6",
+            "1. Nf3 Nf6 2. d4 b6 3. c4 e6",
+            "1. Nf3 e6 2. d4 Nf6 3. c4 b6",
+            "1. Nf3 e6 2. d4 b6 3. c4 Nf6",
+            "1. Nf3 b6 2. d4 Nf6 3. c4 e6",
+            "1. Nf3 Nf6 2. c4 e6 3. d4 b6",
+            "1. Nf3 Nf6 2. c4 b6 3. d4 e6",
+            "1. Nf3 e6 2. c4 Nf6 3. d4 b6",
+            "1. Nf3 e6 2. c4 b6 3. d4 Nf6",
+            "1. Nf3 b6 2. c4 Nf6 3. d4 e6",
+            "1. Nf3 b6 2. c4 e6 3. d4 Nf6"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.443,
+                "b_p": 0.484,
+                "d_p": 0.073,
+                "prev": 0.011,
+                "prev_i": 93,
+                "att": 0.022,
+                "att_i": 45,
+                "BTL": "1. d4 ( 1. c4 Nf6 { Att. = 0.023, over e6, b6 } 2. d4 ( 2. Nf3 { No stats. } ) 2... e6 { Att. = 0.122, over b6 } 3. Nf3 b6 ) ( 1. Nf3 Nf6 { Att. = 0.156, over e6, b6 } 2. d4 ( 2. c4 e6 { Att. = 0.429, over b6 } 3. d4 b6 ) 2... e6 { Att. = 0.352, over b6 } 3. c4 b6 ) 1... Nf6 { Att. = 0.084, over e6, b6 } 2. c4 ( 2. Nf3 b6 { Att. = 0.208, over e6 } 3. c4 e6 ) 2... e6 { Att. = 0.171, over b6 } 3. Nf3 b6 *",
+                "tot": 122
+            },
+            "1800": {
+                "w_p": 0.517,
+                "b_p": 0.434,
+                "d_p": 0.049,
+                "prev": 0.061,
+                "prev_i": 16,
+                "att": 0.038,
+                "att_i": 26,
+                "BTL": "1. d4 ( 1. c4 Nf6 { Att. = 0.021, over e6, b6 } 2. d4 ( 2. Nf3 e6 { Att. = 0.199, over b6 } 3. d4 b6 ) 2... e6 { Att. = 0.102, over b6 } 3. Nf3 b6 ) ( 1. Nf3 Nf6 { Att. = 0.198, over e6, b6 } 2. d4 ( 2. c4 b6 { Att. = 0.263, over e6 } 3. d4 e6 ) 2... e6 { Att. = 0.469, over b6 } 3. c4 b6 ) 1... Nf6 { Att. = 0.12, over e6, b6 } 2. c4 ( 2. Nf3 b6 { Att. = 0.222, over e6 } 3. c4 e6 ) 2... e6 { Att. = 0.17, over b6 } 3. Nf3 b6 *",
+                "tot": 1367
+            },
+            "MASTERS": {
+                "w_p": 0.482,
+                "b_p": 0.417,
+                "d_p": 0.102,
+                "prev": 0.196,
+                "prev_i": 5,
+                "att": 0.098,
+                "att_i": 10,
+                "BTL": "1. d4 ( 1. c4 e6 { Att. = 0.044, over Nf6, b6 } 2. d4 ( 2. Nf3 Nf6 3. d4 b6 ) 2... Nf6 3. Nf3 b6 ) ( 1. Nf3 e6 { Att. = 0.119, over Nf6, b6 } 2. d4 ( 2. c4 Nf6 { Att. = 0.072, over b6 } 3. d4 b6 ) 2... Nf6 { Att. = 0.574, over b6 } 3. c4 b6 ) 1... Nf6 { Att. = 0.252, over e6, b6 } 2. c4 ( 2. Nf3 e6 { Att. = 0.32, over b6 } 3. c4 b6 ) 2... e6 { Att. = 0.341, over b6 } 3. Nf3 b6 *",
+                "tot": 3635
+            }
+        }
+    },
+    "Bogo-Indian Defense": {
+        "parent": "Indian Defense",
+        "main": "1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.519,
+                "b_p": 0.43,
+                "d_p": 0.052,
+                "prev": 0.005,
+                "prev_i": 188,
+                "att": 0.012,
+                "att_i": 84,
+                "tot": 135
+            },
+            "1800": {
+                "w_p": 0.489,
+                "b_p": 0.469,
+                "d_p": 0.042,
+                "prev": 0.018,
+                "prev_i": 57,
+                "att": 0.022,
+                "att_i": 46,
+                "tot": 966
+            },
+            "MASTERS": {
+                "w_p": 0.49,
+                "b_p": 0.418,
+                "d_p": 0.092,
+                "prev": 0.042,
+                "prev_i": 24,
+                "att": 0.056,
+                "att_i": 18,
+                "tot": 1817
+            }
+        },
+        "transpositions": [
+            "1. d4 e6 2. c4 Nf6 3. Nf3 Bb4+",
+            "1. d4 Nf6 2. Nf3 e6 3. c4 Bb4+",
+            "1. d4 e6 2. Nf3 Nf6 3. c4 Bb4+",
+            "1. c4 Nf6 2. d4 e6 3. Nf3 Bb4+",
+            "1. c4 e6 2. d4 Nf6 3. Nf3 Bb4+",
+            "1. c4 Nf6 2. Nf3 e6 3. d4 Bb4+",
+            "1. c4 e6 2. Nf3 Nf6 3. d4 Bb4+",
+            "1. Nf3 Nf6 2. d4 e6 3. c4 Bb4+",
+            "1. Nf3 e6 2. d4 Nf6 3. c4 Bb4+",
+            "1. Nf3 Nf6 2. c4 e6 3. d4 Bb4+",
+            "1. Nf3 e6 2. c4 Nf6 3. d4 Bb4+"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.498,
+                "b_p": 0.454,
+                "d_p": 0.047,
+                "prev": 0.024,
+                "prev_i": 42,
+                "att": 0.02,
+                "att_i": 50,
+                "BTL": "1. d4 ( 1. c4 Nf6 { Att. = 0.023, over e6 } 2. d4 ( 2. Nf3 e6 3. d4 Bb4+ ) 2... e6 3. Nf3 Bb4+ ) ( 1. Nf3 Nf6 { Att. = 0.156, over e6 } 2. d4 ( 2. c4 e6 3. d4 Bb4+ ) 2... e6 3. c4 Bb4+ ) 1... Nf6 { Att. = 0.073, over e6 } 2. c4 ( 2. Nf3 e6 3. c4 Bb4+ ) 2... e6 3. Nf3 Bb4+ *",
+                "tot": 229
+            },
+            "1800": {
+                "w_p": 0.512,
+                "b_p": 0.443,
+                "d_p": 0.045,
+                "prev": 0.07,
+                "prev_i": 14,
+                "att": 0.037,
+                "att_i": 27,
+                "BTL": "1. d4 ( 1. c4 e6 { Att. = 0.022, over Nf6 } 2. d4 ( 2. Nf3 Nf6 3. d4 Bb4+ ) 2... Nf6 3. Nf3 Bb4+ ) ( 1. Nf3 Nf6 { Att. = 0.192, over e6 } 2. d4 ( 2. c4 e6 3. d4 Bb4+ ) 2... e6 3. c4 Bb4+ ) 1... Nf6 { Att. = 0.115, over e6 } 2. c4 ( 2. Nf3 e6 3. c4 Bb4+ ) 2... e6 3. Nf3 Bb4+ *",
+                "tot": 1399
+            },
+            "MASTERS": {
+                "w_p": 0.485,
+                "b_p": 0.422,
+                "d_p": 0.093,
+                "prev": 0.124,
+                "prev_i": 8,
+                "att": 0.098,
+                "att_i": 10,
+                "BTL": "1. d4 ( 1. c4 e6 { Att. = 0.044, over Nf6 } 2. d4 ( 2. Nf3 Nf6 3. d4 Bb4+ ) 2... Nf6 3. Nf3 Bb4+ ) ( 1. Nf3 e6 { Att. = 0.119, over Nf6 } 2. d4 ( 2. c4 Nf6 3. d4 Bb4+ ) 2... Nf6 3. c4 Bb4+ ) 1... Nf6 { Att. = 0.252, over e6 } 2. c4 ( 2. Nf3 e6 3. c4 Bb4+ ) 2... e6 3. Nf3 Bb4+ *",
+                "tot": 2721
+            }
+        }
+    },
+    "Catalan Opening": {
+        "parent": "Indian Defense",
+        "main": "1. d4 Nf6 2. c4 e6 3. g3",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.582,
+                "b_p": 0.364,
+                "d_p": 0.055,
+                "prev": 0.001,
+                "prev_i": 1192,
+                "att": 0.031,
+                "att_i": 32,
+                "tot": 55
+            },
+            "1800": {
+                "w_p": 0.513,
+                "b_p": 0.43,
+                "d_p": 0.057,
+                "prev": 0.003,
+                "prev_i": 389,
+                "att": 0.084,
+                "att_i": 12,
+                "tot": 544
+            },
+            "MASTERS": {
+                "w_p": 0.497,
+                "b_p": 0.404,
+                "d_p": 0.099,
+                "prev": 0.021,
+                "prev_i": 47,
+                "att": 0.197,
+                "att_i": 5,
+                "tot": 3183
+            }
+        },
+        "transpositions": [
+            "1. d4 e6 2. c4 Nf6 3. g3",
+            "1. d4 Nf6 2. g3 e6 3. c4",
+            "1. d4 e6 2. g3 Nf6 3. c4",
+            "1. c4 Nf6 2. d4 e6 3. g3",
+            "1. c4 e6 2. d4 Nf6 3. g3",
+            "1. c4 Nf6 2. g3 e6 3. d4",
+            "1. c4 e6 2. g3 Nf6 3. d4",
+            "1. g3 Nf6 2. d4 e6 3. c4",
+            "1. g3 e6 2. d4 Nf6 3. c4",
+            "1. g3 Nf6 2. c4 e6 3. d4",
+            "1. g3 e6 2. c4 Nf6 3. d4"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.577,
+                "b_p": 0.385,
+                "d_p": 0.038,
+                "prev": 0.002,
+                "prev_i": 503,
+                "att": 0.041,
+                "att_i": 25,
+                "BTL": "1. d4 { Att. = 0.041, over c4, g3 } 1... Nf6 ( 1... e6 2. c4 { Att. = 0.095, over g3 } 2... Nf6 3. g3 ) 2. c4 { Att. = 0.254, over g3 } 2... e6 3. g3 *",
+                "tot": 78
+            },
+            "1800": {
+                "w_p": 0.52,
+                "b_p": 0.432,
+                "d_p": 0.048,
+                "prev": 0.005,
+                "prev_i": 204,
+                "att": 0.095,
+                "att_i": 11,
+                "BTL": "1. d4 { Att. = 0.095, over c4, g3 } 1... Nf6 ( 1... e6 2. c4 { Att. = 0.113, over g3 } 2... Nf6 3. g3 ) 2. c4 { Att. = 0.317, over g3 } 2... e6 3. g3 *",
+                "tot": 660
+            },
+            "MASTERS": {
+                "w_p": 0.497,
+                "b_p": 0.404,
+                "d_p": 0.099,
+                "prev": 0.038,
+                "prev_i": 26,
+                "att": 0.21,
+                "att_i": 5,
+                "BTL": "1. d4 { Att. = 0.21, over c4, g3 } 1... Nf6 ( 1... e6 2. c4 { Att. = 0.242, over g3 } 2... Nf6 3. g3 ) 2. c4 { Att. = 0.406, over g3 } 2... e6 3. g3 *",
+                "tot": 3381
+            }
+        }
+    },
+    "Benoni Defense": {
+        "parent": "Indian Defense",
+        "main": "1. d4 Nf6 2. c4 c5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.472,
+                "b_p": 0.494,
+                "d_p": 0.033,
+                "prev": 0.004,
+                "prev_i": 234,
+                "att": 0.07,
+                "att_i": 14,
+                "tot": 627
+            },
+            "1800": {
+                "w_p": 0.454,
+                "b_p": 0.501,
+                "d_p": 0.044,
+                "prev": 0.028,
+                "prev_i": 35,
+                "att": 0.129,
+                "att_i": 8,
+                "tot": 9194
+            },
+            "MASTERS": {
+                "w_p": 0.469,
+                "b_p": 0.443,
+                "d_p": 0.088,
+                "prev": 0.074,
+                "prev_i": 13,
+                "att": 0.166,
+                "att_i": 6,
+                "tot": 9417
+            }
+        },
+        "transpositions": [
+            "1. d4 c5 2. c4 Nf6",
+            "1. c4 Nf6 2. d4 c5",
+            "1. c4 c5 2. d4 Nf6"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.469,
+                "b_p": 0.495,
+                "d_p": 0.037,
+                "prev": 0.01,
+                "prev_i": 105,
+                "att": 0.075,
+                "att_i": 13,
+                "BTL": "1. d4 ( 1. c4 Nf6 { Att. = 0.187, over c5 } 2. d4 c5 ) 1... Nf6 { Att. = 0.333, over c5 } 2. c4 c5 *",
+                "tot": 693
+            },
+            "1800": {
+                "w_p": 0.454,
+                "b_p": 0.5,
+                "d_p": 0.045,
+                "prev": 0.052,
+                "prev_i": 19,
+                "att": 0.133,
+                "att_i": 8,
+                "BTL": "1. d4 ( 1. c4 Nf6 { Att. = 0.119, over c5 } 2. d4 c5 ) 1... Nf6 { Att. = 0.5, over c5 } 2. c4 c5 *",
+                "tot": 9475
+            },
+            "MASTERS": {
+                "w_p": 0.469,
+                "b_p": 0.443,
+                "d_p": 0.088,
+                "prev": 0.126,
+                "prev_i": 8,
+                "att": 0.167,
+                "att_i": 6,
+                "BTL": "1. d4 ( 1. c4 Nf6 { Att. = 0.024, over c5 } 2. d4 c5 ) 1... Nf6 { Att. = 0.493, over c5 } 2. c4 c5 *",
+                "tot": 9483
+            }
+        }
+    },
+    "Budapest Gambit": {
+        "parent": "Indian Defense",
+        "main": "1. d4 Nf6 2. c4 e5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.478,
+                "b_p": 0.499,
+                "d_p": 0.023,
+                "prev": 0.009,
+                "prev_i": 111,
+                "att": 0.07,
+                "att_i": 14,
+                "tot": 1332
+            },
+            "1800": {
+                "w_p": 0.474,
+                "b_p": 0.48,
+                "d_p": 0.046,
+                "prev": 0.032,
+                "prev_i": 32,
+                "att": 0.129,
+                "att_i": 8,
+                "tot": 10151
+            },
+            "MASTERS": {
+                "w_p": 0.503,
+                "b_p": 0.415,
+                "d_p": 0.081,
+                "prev": 0.016,
+                "prev_i": 62,
+                "att": 0.166,
+                "att_i": 6,
+                "tot": 2056
+            }
+        },
+        "transpositions": [
+            "1. c4 Nf6 2. d4 e5"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.48,
+                "b_p": 0.498,
+                "d_p": 0.023,
+                "prev": 0.011,
+                "prev_i": 88,
+                "att": 0.075,
+                "att_i": 13,
+                "BTL": "1. d4 ( 1. c4 Nf6 2. d4 e5 ) 1... Nf6 2. c4 e5 *",
+                "tot": 1357
+            },
+            "1800": {
+                "w_p": 0.473,
+                "b_p": 0.481,
+                "d_p": 0.046,
+                "prev": 0.049,
+                "prev_i": 21,
+                "att": 0.133,
+                "att_i": 8,
+                "BTL": "1. d4 ( 1. c4 Nf6 2. d4 e5 ) 1... Nf6 2. c4 e5 *",
+                "tot": 10359
+            },
+            "MASTERS": {
+                "w_p": 0.503,
+                "b_p": 0.415,
+                "d_p": 0.082,
+                "prev": 0.022,
+                "prev_i": 45,
+                "att": 0.167,
+                "att_i": 6,
+                "BTL": "1. d4 ( 1. c4 Nf6 2. d4 e5 ) 1... Nf6 2. c4 e5 *",
+                "tot": 2063
+            }
+        }
+    },
+    "Trompowsky Attack": {
+        "parent": "Indian Defense",
+        "main": "1. d4 Nf6 2. Bg5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.487,
+                "b_p": 0.478,
+                "d_p": 0.036,
+                "prev": 0.008,
+                "prev_i": 129,
+                "att": 0.122,
+                "att_i": 8,
+                "tot": 1999
+            },
+            "1800": {
+                "w_p": 0.503,
+                "b_p": 0.453,
+                "d_p": 0.044,
+                "prev": 0.01,
+                "prev_i": 100,
+                "att": 0.265,
+                "att_i": 4,
+                "tot": 6684
+            },
+            "MASTERS": {
+                "w_p": 0.49,
+                "b_p": 0.419,
+                "d_p": 0.091,
+                "prev": 0.027,
+                "prev_i": 38,
+                "att": 0.485,
+                "att_i": 2,
+                "tot": 9849
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Dutch Defense": {
+        "main": "1. d4 f5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.516,
+                "b_p": 0.446,
+                "d_p": 0.038,
+                "prev": 0.015,
+                "prev_i": 67,
+                "att": 0.21,
+                "att_i": 5,
+                "tot": 6507
+            },
+            "1800": {
+                "w_p": 0.497,
+                "b_p": 0.459,
+                "d_p": 0.044,
+                "prev": 0.025,
+                "prev_i": 40,
+                "att": 0.257,
+                "att_i": 4,
+                "tot": 16136
+            },
+            "MASTERS": {
+                "w_p": 0.469,
+                "b_p": 0.451,
+                "d_p": 0.08,
+                "prev": 0.025,
+                "prev_i": 40,
+                "att": 0.336,
+                "att_i": 3,
+                "tot": 6349
+            }
+        },
+        "variations": [
+            "Staunton Gambit"
+        ],
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Staunton Gambit": {
+        "parent": "Dutch Defense",
+        "main": "1. d4 f5 2. e4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.491,
+                "b_p": 0.491,
+                "d_p": 0.017,
+                "prev": 0.004,
+                "prev_i": 265,
+                "att": 0.015,
+                "att_i": 67,
+                "tot": 116
+            },
+            "1800": {
+                "w_p": 0.574,
+                "b_p": 0.394,
+                "d_p": 0.031,
+                "prev": 0.011,
+                "prev_i": 95,
+                "att": 0.025,
+                "att_i": 40,
+                "tot": 667
+            },
+            "MASTERS": {
+                "w_p": 0.451,
+                "b_p": 0.483,
+                "d_p": 0.066,
+                "prev": 0.03,
+                "prev_i": 34,
+                "att": 0.025,
+                "att_i": 40,
+                "tot": 559
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Englund Gambit": {
+        "main": "1. d4 e5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.497,
+                "b_p": 0.465,
+                "d_p": 0.038,
+                "prev": 0.044,
+                "prev_i": 23,
+                "att": 0.21,
+                "att_i": 5,
+                "tot": 19558
+            },
+            "1800": {
+                "w_p": 0.47,
+                "b_p": 0.487,
+                "d_p": 0.043,
+                "prev": 0.029,
+                "prev_i": 34,
+                "att": 0.257,
+                "att_i": 4,
+                "tot": 18457
+            },
+            "MASTERS": {
+                "w_p": 0.502,
+                "b_p": 0.432,
+                "d_p": 0.066,
+                "prev": 0.009,
+                "prev_i": 111,
+                "att": 0.336,
+                "att_i": 3,
+                "tot": 2241
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "English Defense": {
+        "main": "1. d4 b6",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.496,
+                "b_p": 0.467,
+                "d_p": 0.037,
+                "prev": 0.017,
+                "prev_i": 59,
+                "att": 0.21,
+                "att_i": 5,
+                "tot": 7379
+            },
+            "1800": {
+                "w_p": 0.508,
+                "b_p": 0.447,
+                "d_p": 0.045,
+                "prev": 0.018,
+                "prev_i": 56,
+                "att": 0.257,
+                "att_i": 4,
+                "tot": 11393
+            },
+            "MASTERS": {
+                "w_p": 0.504,
+                "b_p": 0.424,
+                "d_p": 0.072,
+                "prev": 0.005,
+                "prev_i": 200,
+                "att": 0.336,
+                "att_i": 3,
+                "tot": 1326
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "London System": {
+        "main": "1. d4 d5 2. Nf3 Nf6 3. Bf4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.542,
+                "b_p": 0.415,
+                "d_p": 0.043,
+                "prev": 0.005,
+                "prev_i": 201,
+                "att": 0.114,
+                "att_i": 9,
+                "tot": 1202
+            },
+            "1800": {
+                "w_p": 0.507,
+                "b_p": 0.438,
+                "d_p": 0.055,
+                "prev": 0.011,
+                "prev_i": 88,
+                "att": 0.132,
+                "att_i": 8,
+                "tot": 3786
+            },
+            "MASTERS": {
+                "w_p": 0.459,
+                "b_p": 0.438,
+                "d_p": 0.104,
+                "prev": 0.02,
+                "prev_i": 50,
+                "att": 0.152,
+                "att_i": 7,
+                "tot": 2328
+            }
+        },
+        "transpositions": [
+            "1. d4 Nf6 2. Nf3 d5 3. Bf4",
+            "1. d4 d5 2. Bf4 Nf6 3. Nf3",
+            "1. d4 Nf6 2. Bf4 d5 3. Nf3",
+            "1. Nf3 d5 2. d4 Nf6 3. Bf4",
+            "1. Nf3 Nf6 2. d4 d5 3. Bf4"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.525,
+                "b_p": 0.437,
+                "d_p": 0.038,
+                "prev": 0.028,
+                "prev_i": 36,
+                "att": 0.151,
+                "att_i": 7,
+                "BTL": "1. d4 { Att. = 0.151, over Nf3 } 1... d5 ( 1... Nf6 2. Nf3 { Att. = 0.303, over Bf4 } 2... d5 3. Bf4 ) 2. Nf3 { Att. = 0.205, over Bf4 } 2... Nf6 3. Bf4 *",
+                "tot": 4131
+            },
+            "1800": {
+                "w_p": 0.504,
+                "b_p": 0.44,
+                "d_p": 0.056,
+                "prev": 0.043,
+                "prev_i": 23,
+                "att": 0.187,
+                "att_i": 5,
+                "BTL": "1. d4 { Att. = 0.187, over Nf3 } 1... d5 ( 1... Nf6 2. Nf3 { Att. = 0.208, over Bf4 } 2... d5 3. Bf4 ) 2. Nf3 { Att. = 0.328, over Bf4 } 2... Nf6 3. Bf4 *",
+                "tot": 9968
+            },
+            "MASTERS": {
+                "w_p": 0.47,
+                "b_p": 0.429,
+                "d_p": 0.101,
+                "prev": 0.051,
+                "prev_i": 20,
+                "att": 0.251,
+                "att_i": 4,
+                "BTL": "1. Nf3 { Att. = 0.251, over d4 } 1... d5 ( 1... Nf6 2. d4 d5 3. Bf4 ) 2. d4 Nf6 3. Bf4 *",
+                "tot": 4305
+            }
+        }
+    },
+    "Jobava-London System": {
+        "main": "1. d4 d5 2. Nc3 Nf6 3. Bf4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.545,
+                "b_p": 0.417,
+                "d_p": 0.039,
+                "prev": 0.005,
+                "prev_i": 193,
+                "att": 0.248,
+                "att_i": 4,
+                "tot": 2712
+            },
+            "1800": {
+                "w_p": 0.498,
+                "b_p": 0.447,
+                "d_p": 0.055,
+                "prev": 0.003,
+                "prev_i": 311,
+                "att": 0.164,
+                "att_i": 6,
+                "tot": 1339
+            },
+            "MASTERS": {
+                "w_p": 0.511,
+                "b_p": 0.403,
+                "d_p": 0.086,
+                "prev": 0.009,
+                "prev_i": 112,
+                "att": 0.139,
+                "att_i": 7,
+                "tot": 949
+            }
+        },
+        "transpositions": [
+            "1. d4 Nf6 2. Nc3 d5 3. Bf4",
+            "1. d4 d5 2. Bf4 Nf6 3. Nc3",
+            "1. d4 Nf6 2. Bf4 d5 3. Nc3",
+            "1. Nc3 d5 2. d4 Nf6 3. Bf4",
+            "1. Nc3 Nf6 2. d4 d5 3. Bf4"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.546,
+                "b_p": 0.416,
+                "d_p": 0.037,
+                "prev": 0.02,
+                "prev_i": 49,
+                "att": 0.288,
+                "att_i": 3,
+                "BTL": "1. d4 { Att. = 0.288, over Nc3 } 1... d5 ( 1... Nf6 2. Nc3 { Att. = 0.327, over Bf4 } 2... d5 3. Bf4 ) 2. Nc3 { Att. = 0.446, over Bf4 } 2... Nf6 3. Bf4 *",
+                "tot": 4574
+            },
+            "1800": {
+                "w_p": 0.488,
+                "b_p": 0.459,
+                "d_p": 0.053,
+                "prev": 0.01,
+                "prev_i": 100,
+                "att": 0.243,
+                "att_i": 4,
+                "BTL": "1. d4 { Att. = 0.243, over Nc3 } 1... d5 ( 1... Nf6 2. Nc3 { Att. = 0.299, over Bf4 } 2... d5 3. Bf4 ) 2. Nc3 { Att. = 0.407, over Bf4 } 2... Nf6 3. Bf4 *",
+                "tot": 2803
+            },
+            "MASTERS": {
+                "w_p": 0.504,
+                "b_p": 0.406,
+                "d_p": 0.09,
+                "prev": 0.022,
+                "prev_i": 46,
+                "att": 0.409,
+                "att_i": 2,
+                "BTL": "1. d4 { Att. = 0.409, over Nc3 } 1... d5 ( 1... Nf6 2. Nc3 { Att. = 0.555, over Bf4 } 2... d5 3. Bf4 ) 2. Nc3 { Att. = 0.52, over Bf4 } 2... Nf6 3. Bf4 *",
+                "tot": 3256
+            }
+        }
+    },
+    "Colle System": {
+        "main": "1. d4 d5 2. Nf3 Nf6 3. e3",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.525,
+                "b_p": 0.438,
+                "d_p": 0.037,
+                "prev": 0.005,
+                "prev_i": 183,
+                "att": 0.114,
+                "att_i": 9,
+                "tot": 1321
+            },
+            "1800": {
+                "w_p": 0.5,
+                "b_p": 0.44,
+                "d_p": 0.059,
+                "prev": 0.009,
+                "prev_i": 106,
+                "att": 0.132,
+                "att_i": 8,
+                "tot": 3138
+            },
+            "MASTERS": {
+                "w_p": 0.468,
+                "b_p": 0.436,
+                "d_p": 0.095,
+                "prev": 0.01,
+                "prev_i": 101,
+                "att": 0.152,
+                "att_i": 7,
+                "tot": 1157
+            }
+        },
+        "transpositions": [
+            "1. d4 Nf6 2. Nf3 d5 3. e3",
+            "1. d4 d5 2. e3 Nf6 3. Nf3",
+            "1. d4 Nf6 2. e3 d5 3. Nf3",
+            "1. Nf3 d5 2. d4 Nf6 3. e3",
+            "1. Nf3 Nf6 2. d4 d5 3. e3",
+            "1. Nf3 d5 2. e3 Nf6 3. d4",
+            "1. Nf3 Nf6 2. e3 d5 3. d4",
+            "1. e3 d5 2. d4 Nf6 3. Nf3",
+            "1. e3 Nf6 2. d4 d5 3. Nf3",
+            "1. e3 d5 2. Nf3 Nf6 3. d4",
+            "1. e3 Nf6 2. Nf3 d5 3. d4"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.507,
+                "b_p": 0.458,
+                "d_p": 0.035,
+                "prev": 0.032,
+                "prev_i": 31,
+                "att": 0.16,
+                "att_i": 6,
+                "BTL": "1. d4 { Att. = 0.16, over Nf3, e3 } 1... d5 ( 1... Nf6 2. e3 { Att. = 0.326, over Nf3 } 2... d5 3. Nf3 ) 2. e3 { Att. = 0.217, over Nf3 } 2... Nf6 3. Nf3 *",
+                "tot": 4707
+            },
+            "1800": {
+                "w_p": 0.494,
+                "b_p": 0.45,
+                "d_p": 0.056,
+                "prev": 0.032,
+                "prev_i": 31,
+                "att": 0.196,
+                "att_i": 5,
+                "BTL": "1. d4 { Att. = 0.196, over Nf3, e3 } 1... d5 ( 1... Nf6 2. e3 { Att. = 0.242, over Nf3 } 2... d5 3. Nf3 ) 2. Nf3 { Att. = 0.328, over e3 } 2... Nf6 3. e3 *",
+                "tot": 7374
+            },
+            "MASTERS": {
+                "w_p": 0.478,
+                "b_p": 0.419,
+                "d_p": 0.103,
+                "prev": 0.026,
+                "prev_i": 38,
+                "att": 0.251,
+                "att_i": 4,
+                "BTL": "1. Nf3 { Att. = 0.251, over d4, e3 } 1... d5 ( 1... Nf6 2. d4 { Att. = 0.218, over e3 } 2... d5 3. e3 ) 2. d4 { Att. = 0.594, over e3 } 2... Nf6 3. e3 *",
+                "tot": 2228
+            }
+        }
+    },
+    "Colle-Zukertort System": {
+        "main": "1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 c5 5. b3",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.667,
+                "b_p": 0.333,
+                "d_p": 0.0,
+                "prev": 0.001,
+                "prev_i": 1489,
+                "att": 0.004,
+                "att_i": 238,
+                "tot": 6
+            },
+            "1800": {
+                "w_p": 0.549,
+                "b_p": 0.392,
+                "d_p": 0.059,
+                "prev": 0.001,
+                "prev_i": 828,
+                "att": 0.017,
+                "att_i": 59,
+                "tot": 51
+            },
+            "MASTERS": {
+                "w_p": 0.44,
+                "b_p": 0.56,
+                "d_p": 0.0,
+                "prev": 0.002,
+                "prev_i": 481,
+                "att": 0.016,
+                "att_i": 64,
+                "tot": 25
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Torre Attack": {
+        "main": "1. d4 Nf6 2. Nf3 e6 3. Bg5",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.447,
+                "b_p": 0.513,
+                "d_p": 0.039,
+                "prev": 0.003,
+                "prev_i": 321,
+                "att": 0.023,
+                "att_i": 43,
+                "tot": 152
+            },
+            "1800": {
+                "w_p": 0.509,
+                "b_p": 0.438,
+                "d_p": 0.053,
+                "prev": 0.007,
+                "prev_i": 151,
+                "att": 0.073,
+                "att_i": 14,
+                "tot": 1220
+            },
+            "MASTERS": {
+                "w_p": 0.452,
+                "b_p": 0.443,
+                "d_p": 0.105,
+                "prev": 0.014,
+                "prev_i": 73,
+                "att": 0.147,
+                "att_i": 7,
+                "tot": 1528
+            }
+        },
+        "transpositions": [
+            "1. d4 e6 2. Nf3 Nf6 3. Bg5",
+            "1. d4 Nf6 2. Bg5 e6 3. Nf3",
+            "1. Nf3 Nf6 2. d4 e6 3. Bg5",
+            "1. Nf3 e6 2. d4 Nf6 3. Bg5",
+            "1. d4 d5 2. Nf3 Nf6 3. Bg5",
+            "1. d4 Nf6 2. Nf3 d5 3. Bg5",
+            "1. d4 d5 2. Bg5 Nf6 3. Nf3",
+            "1. d4 Nf6 2. Bg5 d5 3. Nf3",
+            "1. Nf3 d5 2. d4 Nf6 3. Bg5",
+            "1. Nf3 Nf6 2. d4 d5 3. Bg5",
+            "1. d4 Nf6 2. Nf3 g6 3. Bg5",
+            "1. d4 g6 2. Nf3 Nf6 3. Bg5",
+            "1. d4 Nf6 2. Bg5 g6 3. Nf3",
+            "1. d4 g6 2. Bg5 Nf6 3. Nf3",
+            "1. Nf3 Nf6 2. d4 g6 3. Bg5",
+            "1. Nf3 g6 2. d4 Nf6 3. Bg5",
+            "1. d4 Nf6 2. Nf3 b6 3. Bg5",
+            "1. d4 b6 2. Nf3 Nf6 3. Bg5",
+            "1. d4 Nf6 2. Bg5 b6 3. Nf3",
+            "1. d4 b6 2. Bg5 Nf6 3. Nf3",
+            "1. Nf3 Nf6 2. d4 b6 3. Bg5",
+            "1. Nf3 b6 2. d4 Nf6 3. Bg5"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.507,
+                "b_p": 0.454,
+                "d_p": 0.039,
+                "prev": 0.03,
+                "prev_i": 33,
+                "att": 0.221,
+                "att_i": 5,
+                "BTL": "1. d4 { Att. = 0.221, over Nf3 } 1... Nf6 ( 1... e6 2. Nf3 Nf6 3. Bg5 ) ( 1... d5 2. Nf3 { Att. = 0.205, over Bg5 } 2... Nf6 3. Bg5 ) ( 1... g6 2. Nf3 { Att. = 0.065, over Bg5 } 2... Nf6 3. Bg5 ) ( 1... b6 { No stats. } ) 2. Nf3 { Att. = 0.787, over Bg5 } 2... e6 ( 2... d5 3. Bg5 ) ( 2... g6 3. Bg5 ) ( 2... b6 3. Bg5 ) 3. Bg5 *",
+                "tot": 1530
+            },
+            "1800": {
+                "w_p": 0.506,
+                "b_p": 0.443,
+                "d_p": 0.051,
+                "prev": 0.06,
+                "prev_i": 17,
+                "att": 0.367,
+                "att_i": 3,
+                "BTL": "1. d4 { Att. = 0.367, over Nf3 } 1... Nf6 ( 1... e6 2. Nf3 Nf6 3. Bg5 ) ( 1... d5 2. Nf3 { Att. = 0.328, over Bg5 } 2... Nf6 3. Bg5 ) ( 1... g6 2. Nf3 { Att. = 0.026, over Bg5 } 2... Nf6 3. Bg5 ) ( 1... b6 2. Nf3 { Att. = 0.006, over Bg5 } 2... Nf6 3. Bg5 ) 2. Nf3 { Att. = 0.846, over Bg5 } 2... e6 ( 2... d5 3. Bg5 ) ( 2... g6 3. Bg5 ) ( 2... b6 3. Bg5 ) 3. Bg5 *",
+                "tot": 6265
+            },
+            "MASTERS": {
+                "w_p": 0.46,
+                "b_p": 0.437,
+                "d_p": 0.103,
+                "prev": 0.083,
+                "prev_i": 12,
+                "att": 0.574,
+                "att_i": 2,
+                "BTL": "1. d4 { Att. = 0.574, over Nf3 } 1... Nf6 ( 1... e6 2. Nf3 Nf6 3. Bg5 ) ( 1... d5 2. Nf3 { Att. = 0.567, over Bg5 } 2... Nf6 3. Bg5 ) ( 1... g6 2. Nf3 { Att. = 0.018, over Bg5 } 2... Nf6 3. Bg5 ) ( 1... b6 { No stats. } ) 2. Nf3 { Att. = 0.841, over Bg5 } 2... e6 ( 2... d5 3. Bg5 ) ( 2... g6 3. Bg5 ) ( 2... b6 3. Bg5 ) 3. Bg5 *",
+                "tot": 4840
+            }
+        }
+    },
+    "Stonewall Attack": {
+        "main": "1. d4 d5 2. e3 Nf6 3. Bd3 c5 4. c3 Nc6 5. f4",
+        "stats_main": {
+            "1200": {},
+            "1800": {
+                "w_p": 0.6,
+                "b_p": 0.357,
+                "d_p": 0.043,
+                "prev": 0.004,
+                "prev_i": 282,
+                "att": 0.008,
+                "att_i": 127,
+                "tot": 70
+            },
+            "MASTERS": {
+                "w_p": 0.488,
+                "b_p": 0.439,
+                "d_p": 0.073,
+                "prev": 0.001,
+                "prev_i": 1039,
+                "att": 0.055,
+                "att_i": 18,
+                "tot": 41
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "English Opening": {
+        "main": "1. c4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.507,
+                "b_p": 0.457,
+                "d_p": 0.036,
+                "prev": 0.026,
+                "prev_i": 38,
+                "att": 1,
+                "att_i": 1,
+                "tot": 55847
+            },
+            "1800": {
+                "w_p": 0.502,
+                "b_p": 0.449,
+                "d_p": 0.048,
+                "prev": 0.04,
+                "prev_i": 25,
+                "att": 1,
+                "att_i": 1,
+                "tot": 101684
+            },
+            "MASTERS": {
+                "w_p": 0.486,
+                "b_p": 0.427,
+                "d_p": 0.087,
+                "prev": 0.06,
+                "prev_i": 17,
+                "att": 1,
+                "att_i": 1,
+                "tot": 45706
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Bird's Opening": {
+        "main": "1. f4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.483,
+                "b_p": 0.48,
+                "d_p": 0.038,
+                "prev": 0.005,
+                "prev_i": 200,
+                "att": 1,
+                "att_i": 1,
+                "tot": 10519
+            },
+            "1800": {
+                "w_p": 0.5,
+                "b_p": 0.455,
+                "d_p": 0.046,
+                "prev": 0.013,
+                "prev_i": 77,
+                "att": 1,
+                "att_i": 1,
+                "tot": 32523
+            },
+            "MASTERS": {
+                "w_p": 0.481,
+                "b_p": 0.451,
+                "d_p": 0.068,
+                "prev": 0.006,
+                "prev_i": 167,
+                "att": 1,
+                "att_i": 1,
+                "tot": 4900
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Zukertort Opening": {
+        "main": "1. Nf3",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.5,
+                "b_p": 0.461,
+                "d_p": 0.039,
+                "prev": 0.025,
+                "prev_i": 40,
+                "att": 1,
+                "att_i": 1,
+                "tot": 52041
+            },
+            "1800": {
+                "w_p": 0.51,
+                "b_p": 0.442,
+                "d_p": 0.048,
+                "prev": 0.032,
+                "prev_i": 31,
+                "att": 1,
+                "att_i": 1,
+                "tot": 79693
+            },
+            "MASTERS": {
+                "w_p": 0.487,
+                "b_p": 0.41,
+                "d_p": 0.103,
+                "prev": 0.086,
+                "prev_i": 12,
+                "att": 1,
+                "att_i": 1,
+                "tot": 66314
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    },
+    "Reti Opening": {
+        "main": "1. Nf3 d5 2. c4",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.543,
+                "b_p": 0.429,
+                "d_p": 0.028,
+                "prev": 0.002,
+                "prev_i": 635,
+                "att": 0.404,
+                "att_i": 2,
+                "tot": 1334
+            },
+            "1800": {
+                "w_p": 0.537,
+                "b_p": 0.421,
+                "d_p": 0.042,
+                "prev": 0.006,
+                "prev_i": 161,
+                "att": 0.347,
+                "att_i": 3,
+                "tot": 5354
+            },
+            "MASTERS": {
+                "w_p": 0.499,
+                "b_p": 0.401,
+                "d_p": 0.1,
+                "prev": 0.022,
+                "prev_i": 46,
+                "att": 0.29,
+                "att_i": 3,
+                "tot": 4902
+            }
+        },
+        "transpositions": [
+            "1. c4 d5 2. Nf3"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.547,
+                "b_p": 0.424,
+                "d_p": 0.029,
+                "prev": 0.002,
+                "prev_i": 530,
+                "att": 0.404,
+                "att_i": 2,
+                "BTL": "1. Nf3 { Att. = 0.404, over c4 } 1... d5 2. c4 *",
+                "tot": 1418
+            },
+            "1800": {
+                "w_p": 0.536,
+                "b_p": 0.422,
+                "d_p": 0.042,
+                "prev": 0.007,
+                "prev_i": 150,
+                "att": 0.347,
+                "att_i": 3,
+                "BTL": "1. Nf3 { Att. = 0.347, over c4 } 1... d5 2. c4 *",
+                "tot": 5430
+            },
+            "MASTERS": {
+                "w_p": 0.499,
+                "b_p": 0.401,
+                "d_p": 0.1,
+                "prev": 0.023,
+                "prev_i": 43,
+                "att": 0.29,
+                "att_i": 3,
+                "BTL": "1. Nf3 { Att. = 0.29, over c4 } 1... d5 2. c4 *",
+                "tot": 4915
+            }
+        }
+    },
+    "King's Indian Attack": {
+        "main": "1. Nf3 d5 2. g3",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.487,
+                "b_p": 0.464,
+                "d_p": 0.049,
+                "prev": 0.004,
+                "prev_i": 280,
+                "att": 0.404,
+                "att_i": 2,
+                "tot": 3001
+            },
+            "1800": {
+                "w_p": 0.52,
+                "b_p": 0.429,
+                "d_p": 0.051,
+                "prev": 0.007,
+                "prev_i": 149,
+                "att": 0.347,
+                "att_i": 3,
+                "tot": 5814
+            },
+            "MASTERS": {
+                "w_p": 0.487,
+                "b_p": 0.408,
+                "d_p": 0.104,
+                "prev": 0.03,
+                "prev_i": 33,
+                "att": 0.29,
+                "att_i": 3,
+                "tot": 6735
+            }
+        },
+        "transpositions": [
+            "1. g3 d5 2. Nf3"
+        ],
+        "stats": {
+            "1200": {
+                "w_p": 0.485,
+                "b_p": 0.467,
+                "d_p": 0.049,
+                "prev": 0.004,
+                "prev_i": 249,
+                "att": 0.404,
+                "att_i": 2,
+                "BTL": "1. Nf3 { Att. = 0.404, over g3 } 1... d5 2. g3 *",
+                "tot": 3249
+            },
+            "1800": {
+                "w_p": 0.519,
+                "b_p": 0.43,
+                "d_p": 0.051,
+                "prev": 0.007,
+                "prev_i": 146,
+                "att": 0.363,
+                "att_i": 3,
+                "BTL": "1. g3 { Att. = 0.363, over Nf3 } 1... d5 2. Nf3 *",
+                "tot": 5941
+            },
+            "MASTERS": {
+                "w_p": 0.486,
+                "b_p": 0.409,
+                "d_p": 0.105,
+                "prev": 0.031,
+                "prev_i": 33,
+                "att": 0.375,
+                "att_i": 3,
+                "BTL": "1. g3 { Att. = 0.375, over Nf3 } 1... d5 2. Nf3 *",
+                "tot": 6860
+            }
+        }
+    },
+    "Nimzo-Larsen Attack": {
+        "main": "1. b3",
+        "stats_main": {
+            "1200": {
+                "w_p": 0.498,
+                "b_p": 0.466,
+                "d_p": 0.037,
+                "prev": 0.009,
+                "prev_i": 111,
+                "att": 1,
+                "att_i": 1,
+                "tot": 19123
+            },
+            "1800": {
+                "w_p": 0.494,
+                "b_p": 0.461,
+                "d_p": 0.044,
+                "prev": 0.01,
+                "prev_i": 100,
+                "att": 1,
+                "att_i": 1,
+                "tot": 24831
+            },
+            "MASTERS": {
+                "w_p": 0.481,
+                "b_p": 0.435,
+                "d_p": 0.084,
+                "prev": 0.016,
+                "prev_i": 62,
+                "att": 1,
+                "att_i": 1,
+                "tot": 12372
+            }
+        },
+        "transpositions": [],
+        "stats": "[USE MAIN]"
+    }
+}

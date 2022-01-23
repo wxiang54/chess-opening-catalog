@@ -1,0 +1,87 @@
+{
+    "DEBUG_MODE": true,
+    "EXTRA_DEBUG_MODE": false,
+
+    "PGN_EXT": ".pgn",
+    "JSON_EXT": ".json",
+
+    "PGN_DIR": "pgn/",
+    "SRC_DIR": "src/",
+    "SANITIZED_DIR": "sanitized/",
+    "SAMPLE_DIR": "sample/",
+    "BY_ELO_DIR": "by-elo/",
+
+    "STATS_DIR": "stats/",
+    "STATS_RATING": "1200",
+    "STATS_DEPTH": 6,
+    "STAT_LABEL": {
+        "TOTAL": "tot",
+        "WIN-W": "w_t",
+        "WIN-B": "b_t",
+        "DRAW": "d_t",
+        "MOVE%": "p",
+        "WIN-W%": "w_p",
+        "WIN-B%": "b_p",
+        "DRAW%": "d_p",
+        "PREV": "prev",
+        "PREV_INV": "prev_i",
+        "ATTAIN": "att",
+        "ATTAIN_INV": "att_i"
+    },
+
+    "SANITIZED_SUFFIX": "_sanitized",
+    "PGN_FILENAME_SRC": {
+        "SAMPLE": "sample.pgn",
+        "SAMPLE2": "sample2.pgn",
+        "MASTERS": "lichess_elite_2021-06.pgn",
+        "ALL": "lichess_db_standard_rated_2019-06.pgn"
+    },
+
+    "SAMPLE_SUFFIX": "_sample",
+    "DEPTH_SUFFIX": "_depth",
+    "SAMPLE_SIZE": 100000,
+    "SAMPLE_WITH_REPLACEMENT": false,
+    "RATINGS": [1200, 1800, "MASTERS"],
+    "RATING_DEV": 100,
+
+    "NUM_EXPECTED_GAMES": {
+        "SAMPLE": 5,
+        "SAMPLE2": 2,
+        "MASTERS": 780718,
+        "ALL": 19241203,
+        "RATINGS": {
+            "MASTERS": 780718,
+            "1200": 2110247,
+            "1500": 3234324,
+            "1800": 2515750
+        }
+    },
+
+    "BATCH_SIZE": 50,
+
+    "TC": {
+        "BLITZ": ["180+0", "180+2", "300+0", "300+3"],
+        "RAPID": ["600+0", "600+5", "900+10"],
+        "CLASSICAL": ["1800+0", "600+5", "900+10"]
+    },
+
+    "PGN_HEADERS": {
+        "RESULT": "Result",
+        "ELO-W": "WhiteElo",
+        "ELO-B": "BlackElo",
+        "ECO": "ECO",
+        "OPENING": "Opening",
+        "TIME": "TimeControl"
+    },
+
+    "RESULTS": {
+        "1-0": "WIN-W",
+        "0-1": "WIN-B",
+        "1/2-1/2": "DRAW"
+    },
+
+    "OPENINGS_JSON": "openings",
+
+
+    "END": ""
+}
