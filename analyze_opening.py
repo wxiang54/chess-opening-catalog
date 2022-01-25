@@ -193,7 +193,7 @@ def calc_attainability(opening, color):
                 MOVE_STACK.pop()
 
             else:
-                atts = []
+                atts = {}   # Map moves to their att.
                 att_max = 0     # Need to maintain this to keep track of move.
                 move_max = None
                 if EXTRA_DEBUG_MODE:
@@ -205,7 +205,7 @@ def calc_attainability(opening, color):
                         continue    # No stats for this move.
                     MOVE_STACK.append(move)
                     att = recurse_revcolor(move)
-                    atts.append(att)
+                    atts[move] = att
                     if att > att_max:
                         att_max = att
                         move_max = move
@@ -213,11 +213,28 @@ def calc_attainability(opening, color):
                     if EXTRA_DEBUG_MODE:
                         print(success("==="))
 
-                if cur_color == color or is_opposite_color:
+                '''
+                is_opposite_color indicates prev calc (True) or att calc (False).
+                prev, same color: 1 * sum
+                prev, diff color: MOVE% * weighted sum
+                att, same color: 1 * sum
+                att, diff color: MOVE% * max(children)
+                '''
+                if cur_color == color:
                     # Continuations are my opponent's: Sum P of their replies.
-                    att_base = sum(atts)
+                    att_base = sum(atts.values())
                     if EXTRA_DEBUG_MODE:
                         print(warn(f"{MOVE_STACK} Sum att: {att_base}"))
+                elif is_opposite_color:
+                    # Continuations are mine, but have to normalize by weighting sum terms by move probability.
+                    probs = {move: stats_obj[move]["stats"][LABELS["MOVE%"]] for move in atts}
+                    denom = sum(probs.values())
+                    att_base = 0
+                    for move in probs:
+                        att_base += atts[move] * (probs[move] / denom)
+
+                    if EXTRA_DEBUG_MODE:
+                        print(warn(f"{MOVE_STACK} Weighted sum att: {att_base}"))
                 else:
                     # Continuations are mine: Find "best try" which maximizes P.
                     if move_max is None:
@@ -467,15 +484,15 @@ if __name__ == "__main__":
     # Actual work:
     # process_all_openings(find_transpositions)
     # process_all_openings(update_stats_main)
-    # process_all_openings(update_stats)
+    process_all_openings(update_stats)
 
     # Test on a single opening.
-    opening = "Italian Game"
-    att, btl = calc_attainability(opening, chess.WHITE)
-    print(att)
-    print(btl)
+    # opening = "Four Knights Game"
+    # att, btl = calc_attainability(opening, chess.WHITE)
+    # print(att)
+    # print(btl)
 
     # Pretty-print the stats of main line.
-    att = calc_attainability_line(get_main_line(opening), chess.WHITE)
-    print(success(f"At elo {RATING}, attainability of {opening} is {att} (about 1 in {round(1/att)} games)."))
-    print(success(f"\tAccounting for getting right color (50/50), attainability is about 1 in {round(1/(att/2))} games."))
+    # att = calc_attainability_line(get_main_line(opening), chess.WHITE)
+    # print(success(f"At elo {RATING}, attainability of {opening} is {att} (about 1 in {round(1/att)} games)."))
+    # print(success(f"\tAccounting for getting right color (50/50), attainability is about 1 in {round(1/(att/2))} games."))

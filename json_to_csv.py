@@ -83,5 +83,5 @@ def split_wr_rating():
 
 
 if __name__ == "__main__":
-    #json_to_csv()
-    split_wr_rating()
+    json_to_csv()
+    # split_wr_rating()
