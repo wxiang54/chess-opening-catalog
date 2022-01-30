@@ -103,7 +103,7 @@ These probabilities are high by most standards, so based on the main line alone,
 
 ### Multiple-Line Calculation (Transpositions)
 
-The first step in incorporating transpositions into the calculation is to enumerate them. I personally did this by generating all permutations of the ML's moves, automatically filtering out illegal lines (such as `1.Bc4 …`), then manually filtering the remaining lines by feasibility (such as `1.Nf3 e5…`, which makes no practical sense for Black).
+The first step to incorporate transpositions is to actually enumerate them. I personally did this by generating all permutations of the ML's moves, automatically filtering out illegal lines (such as `1.Bc4 …`), then manually filtering the remaining lines by feasibility (such as `1.Nf3 e5…`, which makes no practical sense for Black).
 
 The resulting transpositions for the Italian Game are as follows:
 ```
@@ -131,7 +131,7 @@ and so on...
 
 **Prevalence**
 
-Similar to the single-line case, we want prevalence to solely measure how willing White is to play the Italian. Therefore, we modify the absolute probability to limit the sample space of Black's replies, so only the moves that follow an Italian transposition remain. We are essentially normalizing the probability of Black's moves:
+Similar to the single-line case, we want prevalence to solely measure how willing White is to play the Italian. Therefore, we modify the absolute probability to limit the sample space of Black's replies, so only the moves that coincide with an Italian transposition remain. We are essentially normalizing the probability of Black's moves.
 - If Black only has one option (e.g. `1..Nc6` after `1.Nf3`), this reduces to the single-line case: Black plays their move with probability 1.
 - If Black has more than one option (e.g. either `1..e5` or `1..Nc6` after `1.e4`), we normalize the move probabilities so that they sum to 1.
   - In 1200-level games, after `1.e4`, Black replies `1..e5` with probability 0.569, and `1..Nc6` with probability 0.020. After normalization, 0.569 becomes `0.569 / (0.569 + 0.020)` = **0.966** whereas 0.020 becomes `0.020 / (0.569 + 0.020)` = **0.034**.
@@ -145,7 +145,7 @@ The full calculation is visualized below:
 The calculation gets pretty interesting here. Attainability should solely measure how likely Black allows White to enter the Italian, but assuming White is statistically informed, White can steer the position into those that maximize the chance Black will play into the Italian. This allows us to make stronger assumptions about White's play.
 
 If White has a choice between several moves, they should only choose a single move: the move that maximizes the attainability. These choices are recorded in the **best-try line**, or **BTL**, since it is the best try White has to enter the opening. With this knowledge, we can effectively discard transpositions that yield inferior probabilities.
-- At 1200-level, after the moves `1.e4 e5`, White can follow with either `2.Nf3` or `2.Bc4` to enter the Italian. Which move should White play? After `2.Nf3`, the chance Black plays the necessary `2..Nc6` is 0.601, whereas after `2.Bc4`, Black only plays this critical move with probability 0.245. Clearly, White's best try is `2.Nf3`, which happens to be the main line.
+- At 1200-level, after the moves `1.e4 e5`, White can follow with either `2.Nf3` or `2.Bc4` to enter the Italian. Which move should White play? After `2.Nf3`, the chance Black plays the necessary `2..Nc6` is 0.601, whereas after `2.Bc4`, Black only plays this critical move with probability 0.245. Clearly, White's best try is `2.Nf3` (which happens to be the main line), so White should play it with probability 1.
 
 ![Italian Game Attainability Calculation (1200)](docs/att_calc-italian_game_1200.svg)
 
