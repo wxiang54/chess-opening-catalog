@@ -3,8 +3,9 @@ Data pipeline for my chess opening catalog.
 
 As originally shared on Reddit: https://www.reddit.com/r/chess/comments/pwsqyv/i_made_a_huge_catalog_of_chess_openings_for/
 
-- **👉 [Main Catalog 📚](https://drive.google.com/file/d/1eNE-3lSm8hMYQZNONbGdcaHMxGxUNhp8/view)**
-- **👉 [Data Spreadsheet 📊](https://docs.google.com/spreadsheets/d/1cZ5eNTSTn216PWUG1GZs8nVrtXUV1a02HN7WgDN3mbY/edit?usp=sharing)**
+**👉 [Main Catalog 📚](https://drive.google.com/file/d/1eNE-3lSm8hMYQZNONbGdcaHMxGxUNhp8/view)**
+
+**👉 [Data Spreadsheet 📊](https://docs.google.com/spreadsheets/d/1cZ5eNTSTn216PWUG1GZs8nVrtXUV1a02HN7WgDN3mbY/edit?usp=sharing)**
 
 ## Data Sources
 All opening statistics were collected from PGN files, which were in turn collected from games played on Lichess.
